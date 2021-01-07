@@ -1,0 +1,52 @@
+.register form {
+    padding-bottom: 30px;
+    border-bottom: 1px solid var(--secondary-color);
+}
+
+.register form .input-group {
+    position: relative;
+    margin-bottom: 12px;
+}
+
+.register form label {
+    display: inline-block;
+    padding-bottom: 5px;
+}
+
+.register form .input-group {
+    position: relative;
+}
+
+.register form .input-group input {
+    box-shadow: 0 0 1px var(--dark-blue-color);
+}
+
+.register form .input-group .show-password {
+    position: absolute;
+    top: 50%;
+    right: 10px;
+    transform: translateY(-50%);
+    cursor: pointer;
+}
+
+.register form .input-group input, .register form .btn {
+    padding: 7px 12px;
+    border-radius: 6px;
+}
+
+.register form .input-group .error {
+    position: absolute;
+    font-size: 15px;
+    width: 100%;
+    top: 50%;
+    right: 35px;
+    transform: translateY(-50%);
+    color: var(--red-color);
+    text-align: right;
+    pointer-events: none;
+}
+
+@keyframes moveDown {
+    from {transform: translateY(-100%);}
+    to {transform: translateY(0);}
+}

@@ -1,0 +1,19 @@
+.content .search-form {
+    width: 250px;
+    position: relative;
+}
+
+.content .search-form input {
+    width: 100%;
+}
+
+.content .search-form button {
+    position: absolute;
+    top: 0;
+    right: 0;
+    background-color: var(--dark-blue-color);
+    color: var(--light-gray-color);
+    border-radius: 0;
+    border-top-right-radius: 0.25rem;
+    border-bottom-right-radius: 0.25rem;
+}

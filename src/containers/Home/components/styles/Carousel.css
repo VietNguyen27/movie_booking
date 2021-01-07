@@ -1,0 +1,20 @@
+/* Button Control */
+.btn-control .btn-prev, .btn-control .btn-next {
+    position: absolute;
+    z-index: 10;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 35px;
+    padding: 0 16px;
+    margin: 0 8px;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: var(--secondary-color);
+}
+
+.btn-control .btn-prev {
+    left: 0;
+}
+
+.btn-control .btn-next {
+    right: 0;
+}

@@ -1,0 +1,10 @@
+.content {
+    box-shadow: 0 0 4px rgba(0, 0, 0, 0.2);
+}
+
+.content input {
+    box-shadow: 0 0 1px var(--dark-blue-color);
+    border: 1px solid transparent;
+    border-radius: 0.25rem;
+    padding: 4px 8px;
+}

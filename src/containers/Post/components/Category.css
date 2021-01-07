@@ -1,0 +1,7 @@
+.category {
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+}
+
+.category-item:not(:last-of-type) {
+    border-bottom: 1px solid var(--gray-color);
+}

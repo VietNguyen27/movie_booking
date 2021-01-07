@@ -1,0 +1,3529 @@
+{
+  "users": [
+    {
+      "id": "c8a6ecd8-ebce-40c7-a15e-d8ca4cdda00d",
+      "name": "Administrator",
+      "phone_number": "",
+      "email": "admin",
+      "password": "admin",
+      "address": "",
+      "image_url": "https://static.thenounproject.com/png/363640-200.png",
+      "isAdmin": true
+    },
+    {
+      "id": "1a72f948-7055-4094-8dfc-967d1365e871",
+      "name": "Nguyen Van Cao",
+      "phone_number": "0975123654",
+      "email": "nguoinaodo@gmail.com",
+      "password": "123456789",
+      "address": "TP. Hồ Chí Minh",
+      "image_url": "https://static.thenounproject.com/png/363640-200.png",
+      "isAdmin": false
+    },
+    {
+      "id": "1889d524-e790-46f1-9463-5f0c5b6bbe7a",
+      "name": "Nguyen Van Cam",
+      "phone_number": "0987456132",
+      "email": "motaido@gmail.com",
+      "password": "cam123456",
+      "address": "Hà Nội",
+      "image_url": "https://static.thenounproject.com/png/363640-200.png",
+      "isAdmin": false
+    },
+    {
+      "id": "1aa6f0f6-d9d5-45d5-a5b9-07a19a7292b4",
+      "name": "Nguyễn Quốc Việt",
+      "phone_number": "098745655",
+      "email": "viet@gmail.com",
+      "address": "Lô 33 Trần Bạch Đằng, Sơn Trà, Đà Nẵng",
+      "image_url": "https://static.thenounproject.com/png/363640-200.png",
+      "isAdmin": false
+    },
+    {
+      "id": "958623a7-56a8-44a1-b066-5d804cbba5ad",
+      "name": "Nguyễn Văn Anh",
+      "phone_number": "0987452631",
+      "email": "nguyenvana@gmail.com",
+      "password": "123456789",
+      "address": "Sơn Trà, Đà Nẵng",
+      "image_url": "https://static.thenounproject.com/png/363640-200.png",
+      "isAdmin": false
+    },
+    {
+      "id": "a23d1846-ad29-43af-afea-42c883be3874",
+      "name": "Nguyen Viet",
+      "phone_number": "097864542",
+      "email": "viet1234@gmail.com",
+      "password": "02071999",
+      "address": "",
+      "image_url": "https://static.thenounproject.com/png/363640-200.png",
+      "isAdmin": false
+    }
+  ],
+  "tickets": [
+    {
+      "id": "9fbf4a75-a2e9-46d0-8bb2-33d3234e7f15",
+      "seats": [
+        "E09",
+        "E10"
+      ],
+      "userId": "958623a7-56a8-44a1-b066-5d804cbba5ad",
+      "cinemaId": 1,
+      "date": "2021-01-01",
+      "movieId": 6,
+      "price": 79000,
+      "timeSelect": "18:00",
+      "orders": [
+        {
+          "id": 1002,
+          "price": 38000,
+          "quantity": 1
+        },
+        {
+          "id": 2001,
+          "price": 21000,
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "id": "37d12bd3-9964-434d-acc7-3d9e9d50aec6",
+      "seats": [
+        "F03"
+      ],
+      "userId": "958623a7-56a8-44a1-b066-5d804cbba5ad",
+      "cinemaId": 3,
+      "date": "2021-01-04",
+      "movieId": 10,
+      "price": 69000,
+      "timeSelect": "12:10",
+      "orders": [
+        {
+          "id": 1003,
+          "price": 33000,
+          "quantity": 1
+        },
+        {
+          "id": 2001,
+          "price": 21000,
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "id": "e646b283-ce72-47c9-b5d2-6fa0b5e5753d",
+      "seats": [
+        "D09"
+      ],
+      "userId": "958623a7-56a8-44a1-b066-5d804cbba5ad",
+      "cinemaId": 1,
+      "date": "2021-01-01",
+      "movieId": 2,
+      "price": 59000,
+      "timeSelect": "09:00",
+      "orders": []
+    },
+    {
+      "id": "dcd80d4b-6794-4519-a90a-e9ccf0b4bc0e",
+      "seats": [
+        "D10"
+      ],
+      "userId": "958623a7-56a8-44a1-b066-5d804cbba5ad",
+      "cinemaId": 1,
+      "date": "2021-01-01",
+      "movieId": 2,
+      "price": 59000,
+      "timeSelect": "09:00",
+      "orders": [
+        {
+          "id": 2001,
+          "price": 21000,
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "id": "a9621d87-321e-40e1-a01d-0efeb829e677",
+      "seats": [
+        "E08",
+        "E09",
+        "E10"
+      ],
+      "userId": "1aa6f0f6-d9d5-45d5-a5b9-07a19a7292b4",
+      "cinemaId": 2,
+      "date": "2021-01-02",
+      "movieId": 2,
+      "price": 59000,
+      "timeSelect": "15:00",
+      "orders": [
+        {
+          "id": 1003,
+          "price": 33000,
+          "quantity": 1
+        },
+        {
+          "id": 2001,
+          "price": 21000,
+          "quantity": 1
+        },
+        {
+          "id": 2002,
+          "price": 21000,
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "id": "8adde0e0-6989-4c43-9c15-5a18d135b1c1",
+      "seats": [
+        "F10",
+        "F09"
+      ],
+      "userId": "1aa6f0f6-d9d5-45d5-a5b9-07a19a7292b4",
+      "cinemaId": 3,
+      "date": "2021-01-05",
+      "movieId": 8,
+      "price": 59000,
+      "timeSelect": "21:00",
+      "orders": [
+        {
+          "id": 2001,
+          "price": 21000,
+          "quantity": 2
+        }
+      ]
+    },
+    {
+      "id": "0864fccf-c43e-4287-a919-ab0f5d57f869",
+      "seats": [
+        "E09",
+        "E10"
+      ],
+      "userId": "1889d524-e790-46f1-9463-5f0c5b6bbe7a",
+      "cinemaId": 2,
+      "date": "2021-01-02",
+      "movieId": 6,
+      "price": 79000,
+      "timeSelect": "15:00",
+      "orders": [
+        {
+          "id": 1003,
+          "price": 33000,
+          "quantity": 1
+        },
+        {
+          "id": 2001,
+          "price": 21000,
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "id": "7eea905e-4ef2-4e5c-b8a9-f534016ec918",
+      "seats": [
+        "E11",
+        "E12"
+      ],
+      "userId": "a23d1846-ad29-43af-afea-42c883be3874",
+      "cinemaId": 2,
+      "date": "2021-01-05",
+      "movieId": 2,
+      "price": 59000,
+      "timeSelect": "15:00",
+      "orders": [
+        {
+          "id": 1001,
+          "price": 38000,
+          "quantity": 1
+        },
+        {
+          "id": 1002,
+          "price": 38000,
+          "quantity": 0
+        },
+        {
+          "id": 1003,
+          "price": 33000,
+          "quantity": 0
+        }
+      ]
+    }
+  ],
+  "services": [
+    {
+      "id": 1001,
+      "service": "Bắp rang Caramel",
+      "price": 38000,
+      "category": "Bắp rang"
+    },
+    {
+      "id": 1002,
+      "service": "Bắp rang Phô mai",
+      "price": 38000,
+      "category": "Bắp rang"
+    },
+    {
+      "id": 1003,
+      "service": "Bắp rang thường",
+      "price": 33000,
+      "category": "Bắp rang"
+    },
+    {
+      "id": 2001,
+      "service": "Nước Cocacola",
+      "price": 21000,
+      "category": "Nước ngọt"
+    },
+    {
+      "id": 2002,
+      "service": "Nước Fansta",
+      "price": 21000,
+      "category": "Nước ngọt"
+    },
+    {
+      "id": 2003,
+      "service": "Nước Sprite",
+      "price": 21000,
+      "category": "Nước ngọt"
+    },
+    {
+      "id": 2004,
+      "service": "Nước Cocacola Zero",
+      "price": 25000,
+      "category": "Nước ngọt"
+    },
+    {
+      "id": 3001,
+      "service": "1 Cocacola + 1 Bắp rang thường",
+      "price": 50000,
+      "category": "Popcorn combo"
+    },
+    {
+      "id": 3002,
+      "service": "2 Cocacola + 1 Bắp rang Caramel",
+      "price": 75000,
+      "category": "Popcorn combo"
+    },
+    {
+      "id": 3003,
+      "service": "2 Cocacola + 2 Sprite + 1 Bắp rang Caramel + 1 Bắp rang Phô mai",
+      "price": 156000,
+      "category": "Popcorn combo"
+    }
+  ],
+  "movies": [
+    {
+      "id": 1,
+      "title": "Black Panther",
+      "genres": [
+        "Hành động",
+        "Phiêu lưu",
+        "Khoa học viễn tưởng"
+      ],
+      "duration": "134 phút",
+      "release_date": "2021-1-14",
+      "storyline": "Phim lấy bối cảnh sau Civil War của Marvel một vài tháng, khi T’Challa trở về quê hương Wakanda để thừa kế ngai vàng sau cái chết của cha mình. Theo phong tục ở đây, anh sẽ bị tước bỏ sức mạnh của Black Panther đang mang trong người để bình đẳng tiếp nhận sự khiêu chiến từ 5 bộ lạc và những hoàng thân quốc thích của mình. Với khả năng vượt trội, T’Challa đã trở thành tân quốc vương của Wakanda và phim xoay quanh sự trưởng thành trong vai trò mới này của chàng chiến binh báo đen. Đất nước mà anh cai trị là một quốc gia phát triển vượt bậc hơn bất cứ quốc gia nào trên trái đất nhưng lại ẩn mình dưới vỏ bọc của một đất nước nghèo nàn, thuộc thế giới thứ 3. Sự vượt bậc của Wakanda đến từ việc sở hữu mỏ kim loại có nguồn gốc ngoài hành tinh là vibranium. Chính vì vậy, kim loại quý này thường xuyên bị những kẻ xấu ăn trộm ra thế giới bên ngoài và nhiệm vụ của Black Panther là tìm ra kẻ đó và mang về Wakanda xét xử. Tất cả việc này đều là âm mưu của Killmonger – Em họ của T’Challa nhằm tìm cách quay về Wakanda để lật đổ T’Challa do những hận thù với cha của Black Panther và khác biệt về tư tưởng lãnh đạo đất nước.",
+      "actors": [
+        "Chadwick Boseman",
+        "Michael B. Jordan",
+        "Lupita Nyong'o"
+      ],
+      "poster_url": "https://images-na.ssl-images-amazon.com/images/M/MV5BMTg1MTY2MjYzNV5BMl5BanBnXkFtZTgwMTc4NTMwNDI@._V1_SY500_CR0,0,337,500_AL_.jpg",
+      "poster_horizontal": "https://www.tysonsreporter.com/files/2019/02/blackpanther2.jpeg",
+      "trailer_url": "https://www.youtube.com/embed/dxWvtMOGAhw"
+    },
+    {
+      "id": 2,
+      "title": "Grottmannen Dug",
+      "genres": [
+        "Hoạt hình",
+        "Phiêu lưu",
+        "Hài hước"
+      ],
+      "duration": "98 phút",
+      "release_date": "2020-12-23",
+      "storyline": "Ngôi Làng Tiền Sử đưa khán giả trở về thời kỳ sơ khai, thế giới là một nơi thật đáng sợ, ngoại trừ thung lũng mà anh chàng Dug (Eddie Radmayne) – người của thời kỳ Đồ Đá đang sống cùng bộ lạc của mình. Một ngày nọ, thung lũng bị những người thuộc thời kỳ Đồ Đồng, đứng đầu là Lãnh chúa Nooth (Tom Hiddleston) xâm chiếm. Với sự giúp đỡ của cô nàng Goona (Maisie Williams), Dug và bộ lạc của mình bắt đầu giành lại vùng đất quê hương.",
+      "actors": [
+        "Tom Hiddleston",
+        "Eddie Redmayne",
+        "Maisie Williams"
+      ],
+      "poster_url": "https://images-na.ssl-images-amazon.com/images/M/MV5BYWMxYWVjNzAtMTY0YS00YWQyLWExMGItMjUxODkwYzQyNzMwXkEyXkFqcGdeQXVyMjMxOTE0ODA@._V1_SY500_CR0,0,328,500_AL_.jpg",
+      "poster_horizontal": "https://i-viaplay-com.akamaized.net/viaplay-prod/743/440/1527583401-d3621d0bdfefff0a32769bebf4bf6d6e84c2bf6d.jpg?width=960&height=540",
+      "trailer_url": "https://www.youtube.com/embed/j78M6ruupQQ"
+    },
+    {
+      "id": 3,
+      "title": "Aiyaary",
+      "genres": [
+        "Hành động",
+        "Tội phạm",
+        "Drama"
+      ],
+      "duration": "157 phút",
+      "release_date": "2021-1-26",
+      "storyline": "Aiyaary là một bộ phim kinh dị hành động của Ấn Độ năm 2018 do Neeraj Pandey viết kịch bản và đạo diễn. Được sản xuất bởi Shital Bhatia, Dhaval Gada & Motion Picture Capital và được phân phối bởi Reliance Entertainment, Plan C Studios, Friday Filmworks & Pen India Limited. Hãy chứng kiến câu chuyện của hai sĩ quan quân đội Ấn Độ, một người cố vấn và người bảo trợ của ông trong Ngày Cộng hòa này.",
+      "actors": [
+        "Anupam Kher",
+        "Sidharth Malhotra",
+        "Naseeruddin Shah"
+      ],
+      "poster_url": "https://images-na.ssl-images-amazon.com/images/M/MV5BMjI1NTk0NTc1OV5BMl5BanBnXkFtZTgwNTMwMTE4NDM@._V1_SY500_CR0,0,281,500_AL_.jpg",
+      "poster_horizontal": "https://cdn.traileraddict.com/vidquad/reliance-entertainment/aiyaary-poster/1.jpg",
+      "trailer_url": "https://www.youtube.com/embed/KcWXKmnZZVo"
+    },
+    {
+      "id": 4,
+      "title": "Samson",
+      "genres": [
+        "Hành động",
+        "Drama"
+      ],
+      "duration": "93 phút",
+      "release_date": "2020-12-16",
+      "storyline": "Nội dung phim kể về người anh dùng Samson, thuộc dân tộc Do Thái và sở hữu một sức mạnh hơn người, nhờ vào đức chúa trời, anh giúp người dân thoát ra khỏi ách nô lệ. Tuy nhiên, sự nóng nảy và bồng bột của tuổi trẻ của Samson đẩy chính anh và dân tộc của mình vào cuộc chiến đẫm máu với quân đội Philistine. Trong lúc đó, anh trai của Samson lợi dụng lúc bộ tộc đang hỗn loạn, bày mưu lật đổ Samson để lên đứng đầu. Với sự dũng cảm, sức mạnh phi thường, cùng sự giúp đỡ của một cô gái xinh đẹp người Philistine đã biến khó khăn thành chiến thắng.",
+      "actors": [
+        "Jackson Rathbone",
+        "Billy Zane",
+        "Taylor James"
+      ],
+      "poster_url": "https://images-na.ssl-images-amazon.com/images/M/MV5BYThiMjg4ZDAtNjk5ZS00ZTUxLThmM2ItMGI0ZTE1NjRhNWNmXkEyXkFqcGdeQXVyNTQ3MjE4NTU@._V1_SY500_CR0,0,334,500_AL_.jpg",
+      "poster_horizontal": "https://movieguide.b-cdn.net/wp-content/uploads/2018/06/Samson-Slide.jpg",
+      "trailer_url": "https://www.youtube.com/embed/5X3Tbfslyzg"
+    },
+    {
+      "id": 5,
+      "title": "Loveless",
+      "genres": [
+        "Drama",
+        "Tình cảm"
+      ],
+      "duration": "127 phút",
+      "release_date": "2021-01-10",
+      "storyline": "Tác phẩm của đạo diễn Nga Andrey Zvyagintsev gây liên tưởng đến một loạt phim cùng bầu không khí và đề tài. Phần hình ảnh - nhấn mạnh vào mùa đông nặng nề, tạo cảm giác như thời gian đóng băng trên những khung cửa tuyết dày - gợi nhớ đến Winter Sleep của đạo diễn người Thổ - Nuri Bilge Ceylan (tranh giải phim Oscar nói tiếng nước ngoài năm 2014). Những rạn nứt trong hôn nhân, cuộc sống không lối thoát của các cặp vợ chồng khá giống với A Separation hay Blue Valentine. Dù vậy, đạo diễn Andrey Zvyagintsev vẫn có những nét chấm phá để tạo được câu chuyện của riêng mình.",
+      "actors": [
+        "Maryana Spivak",
+        "Aleksey Rozin",
+        "Matvey Novikov"
+      ],
+      "poster_url": "https://images-na.ssl-images-amazon.com/images/M/MV5BMzU3ODQ3MzQ5Nl5BMl5BanBnXkFtZTgwMDQwMDIzNDM@._V1_SY500_CR0,0,338,500_AL_.jpg",
+      "poster_horizontal": "https://news.psu.edu/sites/default/files/styles/threshold-992/public/Loveless-News.jpg?itok=z7f82ccj",
+      "trailer_url": "https://www.youtube.com/embed/6h5GuecUU-Q"
+    },
+    {
+      "id": 6,
+      "title": "L'amant double",
+      "genres": [
+        "Drama",
+        "Tình cảm",
+        "Giật gân"
+      ],
+      "duration": "107 phút",
+      "release_date": "2020-12-26",
+      "storyline": "‘L’amant double’ có nội dung xoay quanh câu chuyện của Chlóe, một phụ nữ mong manh, yếu ớt, đem lòng yêu Raul, nhà tâm lý học của mình. Tuy nhiên, sau khi cùng chung sống, cô nhận ra những góc khuất trong cuộc sống của Raul, những sự thật bấy lâu nay anh vẫn thường che giấu.",
+      "actors": [
+        "Marine Vacth",
+        "Jeremie Renier",
+        "Jacqueline Bisset"
+      ],
+      "poster_url": "https://images-na.ssl-images-amazon.com/images/M/MV5BMTg5NjUyMzAyOV5BMl5BanBnXkFtZTgwMTU4Njk2NDM@._V1_SY500_CR0,0,337,500_AL_.jpg",
+      "poster_horizontal": "https://i.ytimg.com/vi/4yGyj2-5oOw/maxresdefault.jpg",
+      "trailer_url": "https://www.youtube.com/embed/xqVGWGG9J5Y"
+    },
+    {
+      "id": 7,
+      "title": "The Party",
+      "genres": [
+        "Hài hước",
+        "Drama"
+      ],
+      "duration": "71 phút",
+      "release_date": "2021-01-15",
+      "storyline": "The Party là một bộ phim thuộc thể loại hài đen (black comedy) mới nhất của đạo diễn Sally Potter. Nhân vật Janet tổ chức một bữa tiệc thân mật tại nhà riêng ở London và mời bạn bè của mình để ăn mừng thăng tiến chính trị của mình. Những tưởng đây sẽ là một buổi tiệc chỉ có có không khí vui vẻ với rượu sâm panh và những lời chúc tụng, thế nhưng các tiết lộ động trời giữa họ đã biến chuyển bữa tiệc của họ thành một hướng hoàn toàn khác.",
+      "actors": [
+        "Timothy Spall",
+        "Kristin Scott Thomas",
+        "Patricia Clarkson"
+      ],
+      "poster_url": "https://images-na.ssl-images-amazon.com/images/M/MV5BMTYwMTU5MzY4NF5BMl5BanBnXkFtZTgwNTY2NTkxNDM@._V1_SY500_CR0,0,337,500_AL_.jpg",
+      "poster_horizontal": "https://i.ytimg.com/vi/jojTG0_eXWM/maxresdefault.jpg",
+      "trailer_url": "https://www.youtube.com/embed/Wb4FF6lCqFw"
+    },
+    {
+      "id": 8,
+      "title": "The Boy Downstairs",
+      "genres": [
+        "Hài hước",
+        "Drama",
+        "Tình cảm"
+      ],
+      "duration": "91 phút",
+      "release_date": "2020-12-16",
+      "storyline": "The Boy Downstairs do Sophie Brooks biên kịch và đạo diễn có sự tham gia của các diễn viên: Matthew Shear (The Meyerowitz Stories) vai bạn gái cũ của Mamet vào sống tại căn hộ nằm dưới căn hộ của cô.",
+      "actors": [
+        "Zosia Mamet",
+        "Matthew Shear",
+        "Deirdre O'Connell"
+      ],
+      "poster_url": "https://images-na.ssl-images-amazon.com/images/M/MV5BNjZiNzgzNjUtOWE0Ni00MWFmLTliZDEtNWRkMzc5ZTA2MWM1XkEyXkFqcGdeQXVyNDExMzMxNjE@._V1_SY500_CR0,0,337,500_AL_.jpg",
+      "poster_horizontal": "https://i.ytimg.com/vi/1IeIM9VbV58/maxresdefault.jpg",
+      "trailer_url": "https://www.youtube.com/embed/1IeIM9VbV58"
+    },
+    {
+      "id": 9,
+      "title": "Nostalgia",
+      "genres": [
+        "Drama",
+        " Tình cảm"
+      ],
+      "duration": "114 phút",
+      "release_date": "2021-1-26",
+      "storyline": "Một bức tranh ghép các câu chuyện về tình yêu và sự mất mát, 'Nostalgia' khám phá mối quan hệ của họ với các đồ vật, hiện vật và ký ức đã định hình nên cuộc sống.",
+      "actors": [
+        "Hugo Armstrong",
+        "Shinelle Azoroh",
+        "Annalise Basso"
+      ],
+      "poster_url": "https://images-na.ssl-images-amazon.com/images/M/MV5BYTc0MjI4YTktY2NkYi00YzgwLWIxNDItYWIyNjAwMWNlMGUzXkEyXkFqcGdeQXVyNDY2MjcyOTQ@._V1_SY500_CR0,0,337,500_AL_.jpg",
+      "poster_horizontal": "https://bleeckerstreetmedia.com/assets/shareImages/nostalgia/Nostalgia.jpg",
+      "trailer_url": "https://www.youtube.com/embed/97YwKGrq00s"
+    },
+    {
+      "id": 10,
+      "title": "Oh Lucy!",
+      "genres": [
+        "Hài hước",
+        "Drama"
+      ],
+      "duration": "95 phút",
+      "release_date": "2020-12-12",
+      "storyline": "Bộ phim xoay quanh câu chuyện của một người phụ nữ độc thân người Nhật Bản tham gia vào lớp học tiếng Anh để thay đổi cuộc đời của mình. Setsuko Kawashima vốn dĩ là một nhân viên văn phòng nghiện thuốc, cuộc sống của cô chìm đắm trong quá khứ đen tối bỗng cho đến một ngày cô tham gia vào lớp học tiếng Anh và rơi vào lưới tình của thầy giáo hướng dẫn là John. Đột nhiên John biến mất và Setsuko quyết định đến California để tìm anh với cái tên mới Lucy.",
+      "actors": [
+        "Shinobu Terajima",
+        "Josh Hartnett",
+        "Kaho Minami"
+      ],
+      "poster_url": "https://images-na.ssl-images-amazon.com/images/M/MV5BMTUzMjcwMDExOV5BMl5BanBnXkFtZTgwMjU4Njk2NDM@._V1_SY377_CR0,0,254,377_AL_.jpg",
+      "poster_horizontal": "https://bopowell.files.wordpress.com/2019/06/event-featured-filmguild-1523055748.jpeg?w=1200",
+      "trailer_url": "https://www.youtube.com/embed/U_fuaIMeJTI"
+    }
+  ],
+  "posts": [
+    {
+      "id": 1,
+      "category": "review",
+      "title": "[REVIEW] Trái Tim Quái Vật",
+      "date": "2020-12-22",
+      "description": "Lựa chọn thể loại khó nhưng đội ngũ thực hiện Trái Tim Quái Vật cũng có thể hài lòng phần nào về sản phẩm cuối.",
+      "content": "Trái Tim Quái Vật thuộc thể loại thriller – kinh dị trinh thám, đây là thể loại phổ biến nhưng không dễ làm nếu kịch bản không đủ thông minh, phức tạp và hồi hộp nên quyết định của đoàn làm phim khá mạo hiểm. Tổng thể thì Trái Tim Quái Vật không quá tệ nhưng cảm giác nó như chiếc áo quá rộng mà tầm của đạo diễn và dàn diễn viên chưa tới để có thể mặc vừa.\nCâu chuyện phim tập trung vào vụ án mạng xảy ra ở một chung cư cũ. Khánh (Hoàng Thùy Linh) là nghi can chính nhưng Lâm (B Trần) quả quyết cô bị oan nên dắt hai mẹ con Khánh bỏ trốn. Để minh oan cho Khánh, Lâm quyết tìm về chung cư để điều tra vụ án nhưng từ đây những bí mật hé lộ lại dẫn đến nhiều chết chóc hơn.\nYếu tố quan trọng nhất quyết định thành bại của một bộ phim chính là kịch bản. Người viết đọc trên báo những giới thiệu về phim trước khi công chiếu rằng các nhà làm phim lấy cảm hứng từ nhiều vụ trọng án có thật kèm theo những thêm thắt lồng án trong án để câu chuyện thêm phức tạp nhưng thật sự kịch bản khi xem lại quá đơn giản và thiếu yếu tố ly kỳ.\nMâu thuẫn dẫn đến các án mạng cũng đơn giản và ngây ngô, những tình tiết vụ án nhiều sơ hở. Các vật chứng manh mối được sắp đặt lộ liễu, nhiều tình tiết quan trọng thì \"không đánh mà khai\", đạo diễn còn sợ người xem không hiểu nên hay kèm theo cảnh giải thích rõ các chi tiết vụ án. Có thể đây là ý đồ của đạo diễn Tạ Nguyên Hiệp muốn gần gũi với người xem bình dân nhưng cách kể 'trơn tuột' không thể kích thích tính tò mò của khán giả và tạo nên sự bí ẩn cần có ở thể loại thriller.\nViệc để \"nghi phạm giả\" xuất hiện ngay đầu phim rồi cho nhân vật chính đi tìm hung thủ thật là mô-típ quen thuộc nhưng tình tiết mở đầu khiến người xem biết ngay ai chính là thủ phạm vì thế mọi diễn biến phía sau chỉ còn nhiệm vụ diễn giải chi tiết vụ án mà thôi, đây là điểm yếu chí mạng đầu tiên của kịch bản.\nĐiểm yếu thứ hai là không tạo đủ sự phức tạp và liên can của những nghi phạm khác. Ông Bé tổ trưởng dân phố (Hứa Vĩ Văn) hay đám đàn em của nạn nhân được xây dựng quá yếu không đủ kịch tính. Thời lượng của ông Bé quá ít dù diễn xuất của Hứa Vĩ Văn rất ổn, kịch bản lại cho âm mưu của ông ta vô cùng phi logic (đầu độc, làm ơn bây giờ pháp y của thể kỷ 21 rồi các biên kịch ạ!), nhân vật ông Bé nhỏ nhen độc ác nhưng thiếu nét thâm hiểm nên không thể kéo sự chú ý và nghi ngờ. Nhân vật Khánh quá nông, không bật lên được những uẩn ức trong đời tư đủ để người xem vừa cảm thương vừa ngờ vực, đây là sự phí phạm vì bên cạnh Lâm thì nhân vật Khánh có nhiều tiềm năng để khai thác.\nVề diễn xuất có thể khen nam chính B Trần có cố gắng lớn khi nhận một vai phức tạp, sự tương phản giữa hai nhân cách rõ ràng, sắc thái tình cảm và nội tâm cũng đầy đặn hơn so với những vai diễn trước kia. Hoàng Thùy Linh có màn tái xuất vừa phải, tròn vai nhưng không quá nổi bật. Dàn nhân vật phụ có sự bổ trợ tương đối tốt. Phần phục trang, thiết kế, dựng cảnh có sự chuẩn bị kỹ. Góc quay và những khung hình vẫn còn tạo cảm giác phim truyền hình chứ chưa có nét điện ảnh lắm. Nhạc phim và trang phục cũng tính như điểm cộng làm nền khá ổn cho nhân vật.",
+      "image_url": "https://cdn.moveek.com/media/cache/large/5fab98acc88a1029750560.jpg"
+    },
+    {
+      "id": 2,
+      "category": "review",
+      "title": "[REVIEW] Đừng Gọi Anh Là Bố! (MY GOD! FATHER)",
+      "date": "2020-12-19",
+      "description": "Đừng Gọi Anh Là Bố (My God! Father) chưa đủ sức thuyết phục khán giả.",
+      "content": "Sau khi đứng top doanh thu phòng vé quê nhà, Đừng Gọi Anh Là Bố! (MY GOD! FATHER) – phim hài, hành động đến từ Thái Lan chính thức được công chiếu tại Việt Nam.\nTuy nhiên, bộ phim của đạo diễn Pawat Panangkasiri, với sự tham gia của bộ ba diễn viên đình đám gồm Thanawat Wattanapoom, Chantavit Dhanasevi và Sammy Cowell, đã không đủ thuyết phục khán giả Việt, thậm chí ở các tình tiết hài hước.\nĐừng Gọi Anh Là Bố! xoay quanh mối quan hệ bất hòa giữa Got (Wattanapoom) – tay đua chuyên nghiệp và người bố Prem (Dhanasevi). Một tai nạn xe hơi đưa anh trở về khoảng thời gian bố anh vẫn còn trẻ và vô tình trở thành bạn chí cốt của ông. Thông qua chuyến xuyên không kì diệu này, anh có cơ hội gặp lại mẹ và hiểu hơn về câu chuyện đằng sau tính cách cộc cằn của bố.\nLúc này, Prem là một chàng trai không sợ trời, không sợ đất, dễ dàng chiêu mộ những người cùng chí hướng vào băng đảng Đẹp Trai, nhằm diệt trừ xã hội đen khắp Thái Lan. Thế nhưng, khi quán bar của cô bạn gái Bew (Cowell) bị giang hồ thứ thiệt đòi địa bàn, băng đảng Đẹp Trai liên tục gặp những chuyện oái ăm và cậu con trai xuyên không cũng bị lôi vào chuyến phiêu lưu đầy mạo hiểm này.\nThất bại đầu tiên của Đừng Gọi Anh Là Bố! là sử dụng nhiều tình tiết hài hước quá cũ kỹ và không buồn cười. Phim theo motif quen thuộc: hài ngớ ngẩn, cao trào và cảm động lấy nước mắt như phần lớn phim về tình cảm gia đình khác.\nTuy nhiên, việc xây dựng tâm lý nhân vật hời hợt dẫn đến chuyện khán giả cười không nổi, khóc cũng không xong. Được giới thiệu lọt top doanh thu phòng vé nội địa nên người viết mong chờ một bộ phim chỉn chu, nhưng Đừng Gọi Anh Là Bố! chỉ trôi tuột, không đọng lại chút cảm xúc gì trong tâm trí sau khi xem.\nKhi xuyên không về quá khứ và đồng hành cùng bố, Got nhận ra tính tình chính trực và lạc quan của ông, khác hẳn với một lão già bi quan của hiện tại. Điều duy nhất ở bố mà không thay đổi chính là việc ông không biết bộc lộ tình cảm dành cho người khác thế nào.\nVề phần diễn xuất thì ba diễn viên tham gia Đừng Gọi Anh Là Bố! đều là những gương mặt đình đám của điện ảnh Thái. Trong bộ phim đơn giản thế này thì phần thể hiện của họ cũng chỉ dừng ở mức tròn vai, ăn ý nhưng lại không có khoảnh khắc ấn tượng nào đọng lại.\nĐiểm sáng ở phim là tái hiện cảnh phố phường Thái Lan năm 1998, xem xong lại kích thích khán giả muốn đi du lịch, dù một vài cảnh dường như được dàn dựng trong phim trường và chưa kịp xử lý kỹ xảo.\nNhìn chung thì Đừng Gọi Anh Là Bố! thuộc kiểu phim giải trí \"ăn liền\", xem xong cười nhạt và quên lãng.",
+      "image_url": "https://cdn.moveek.com/media/cache/large/5fae504662028641938571.jpg"
+    },
+    {
+      "id": 3,
+      "category": "review",
+      "title": "[REVIEW] Jingle Jangle: A Christmas Journey - Cuộc phiêu lưu đầy màu sắc cổ điển",
+      "date": "2020-12-16",
+      "description": "Forest Whitaker vào vai một nhà làm đồ chơi huyền thoại trong bộ phim nhạc Drama với chủ đề Giáng Sinh Jingle Jangle: A Christmas Journey. Phim lên sóng ngày 13.11 trên Netflix.",
+      "content": "Trong những phút mở đầu của bộ phim Giáng Sinh mới nhất Jingle Jangle: A Christmas Journey của David E. Talbert, 2 đứa trẻ hỏi người bà của mình (Phylicia Rashad) kể cho chúng nghe một câu chuyện về ngày lễ này. Một trong hai đứa còn đặc biệt yêu cầu đây là câu chuyện vào \"Đêm trước Giáng Sinh\", người bà với đôi mắt lấp lánh nhìn chúng trước khi nói rằng \"Bà nghĩ đến lúc kể một câu chuyện mới rồi.\"\nQuá rõ ràng là câu chuyện của Jingle Jangle: A Christmas Journey cũng không phải trải nghiệm gì quá mới mẻ đối với khán giả. Tựu trung, với dàn diễn diễn viên chủ yếu là da màu, đây là bộ phim hào nhoáng, kiêu hãnh, nhạc kịch giải trí lộng lẫy với phong cách cực kỳ phổ biến trong mùa lễ hội. Nhưng với một mùa đông lạnh lẽo của một năm chẳng có gì ấm áp này đang gần kề, một trải nghiệm quen thuộc, nhân văn và đầy hi vọng có khi lại chính là điều đặc biệt.\nNam diễn viên chính của phim Forest Whitaker trình diễn khả năng ca hát tốt đến ngạc nhiên. Ông vào vai một thợ làm đồ chơi tên Jeronicus Jangle ở thời Victoria trong một thị trấn giả tưởng tên Cobbleton. Cốt truyện vốn không mấy đặc sắc, xoay quanh việc Jeronicus gặp khó khăn sau cái chết của người vợ và bị học trò của mình phản bội (do Keegan-Michael Key thủ vai, mang đến cho khán giả một nhân vật hài hước như thường lệ). Nhiều năm sau, ông cùng với sự trợ giúp của cháu gái Journey (do gương mặt mới toanh Madelen Mills thủ diễn), Jeronicus đã tìm lại được nguồn cảm hứng ban đầu mà ông đánh mất.\nPhần sản xuất đầy màu sắc và thiết kế trang phục sẽ được đánh giá cao hơn nếu khán giả có thể chiêm ngưỡng nó trên màn ảnh rộng, cũng như những cảnh nhạc kịch sẽ được cắt ghép mượt mà hơn mà không quá rối loạn. Bộ phim của biên kịch/Đạo diễn Talbert (Baggage Claim, Almost Christmas) ban đầu là một vở nhạc kịch, vậy nên rất dễ để nhận ra gốc rễ sân khấu trong không ít phân cảnh của nó, bao gồm một cảnh ném tuyết được dàn dựng rất chi tiết.\nÂm nhạc đầy năng lượng và đậm chất R&B trong phim nhưng đồng thời cũng kết hợp với đa dạng phong cách âm nhạc khác nhau bao gồm cả phong cách trữ tình, cổ điển đậm chất Broadway. Những bản nhạc tuyệt vời trong phim đều đến từ các giọng ca như John Legend, Philip Lawrence - người được biết đến nhiều nhất với giải Grammy khi hợp tác với các tên tuổi lớn như Bruno Mars, và điểm sáng của phần âm nhạc trong phim chính là bài Magic Man G, dưới sự thể hiện điêu luyện không ngờ của Key.\nDù vậy, Jingle Jangle: A Christmas Journey, với khá nhiều cảnh stop-motion và CGI animation, vẫn xây dựng đúng trọng tâm của nó và thành công trong việc mang đến một câu chuyện cổ điển trong ngày lễ Giáng Sinh với các nhân vật đa dạng, sẽ có thể thu hút thêm một thế hệ khán giả mới.",
+      "image_url": "https://cdn.moveek.com/media/cache/large/5faa56bf0b61c855117741.jpg"
+    },
+    {
+      "id": 4,
+      "category": "review",
+      "title": "[REVIEW] Sài Gòn Trong Cơn Mưa",
+      "date": "2020-12-12",
+      "description": "Sài Gòn Trong Cơn Mưa, có cố gắng, nhưng chưa thực sự đặc sắc và tạo ấn tượng với khán giả.",
+      "content": "Sài Gòn Trong Cơn Mưa được quảng bá là \"câu chuyện về tình yêu và ước mơ của những người trẻ tứ xứ tìm thấy nhau giữa Sài Gòn và rồi lạc mất nhau cũng ở giữa Sài Gòn\" nhưng kịch bản yếu ớt cùng diễn xuất non nớt của dàn diễn viên đã khiến những mô tả thú vị đó không thành hiện thực. Thêm vào đó, bộ phim cũng không khiến người viết cảm được các hồn của Sài Gòn và hành trình trắc trở tìm tình yêu và sự nghiệp của người trẻ.\nAnh Vũ (Avin Lu) – một chàng trai nghèo Hà Nội vào Sài Gòn theo đuổi nghiệp ca sĩ gặp gỡ Đồng Mây (Hồ Thu Anh) – cô gái Phú Yên lăn lộn kiếm tiền nuôi ước mơ thiết kế thời trang. Bồng Bềnh band mà Anh Vũ tham gia lận đận nhiều năm chưa nổi tiếng, gánh nặng cơm áo gạo tiền khiến cặp đôi dần xa cách với nhau và với ước mơ của chính họ. Cuối cùng từng nhân vật cũng tìm được cho mình một định nghĩa riêng về \"người thành công\" nhưng đến khi đó họ có còn tình yêu và hạnh phúc như xưa?\nÝ tưởng kịch bản không mới nhưng vẫn khá ổn, nếu biết cách triển khai có thể tạo nên câu chuyện phim thú vị. Tuy nhiên, cũng chính kịch bản lại là khâu yếu nhất của phim này. Phim thiếu cao trào, khúc mắc không được đưa ra rõ nét, giải quyết nửa vời thiếu thuyết phục.\nHai nhánh chuyện chính, tìm tình yêu và xây sự nghiệp, đáng lẽ có thể cùng diễn ra rồi dần dần nhập lại đẩy mâu thuẫn cho chuyện phim thì đạo diễn trẻ Lê Minh Hoàng không thuyết phục người xem hiểu được những gian truân, hy sinh khi theo đuổi ước mơ, nhịp điệu phim đều đều nhàm chán, các tình tiết kiêng cưỡng thiếu thuyết phục. Điểm mạnh nhất của phim có vẻ là chuyện tình cùng những bản nhạc, nhưng cách xếp đặt lộn xộn, thiếu tiết chế nên không duy trì được sự mới lạ, hứng thú.\nHai nhánh chuyện chính, tìm tình yêu và xây sự nghiệp, đáng lẽ có thể cùng diễn ra rồi dần dần nhập lại đẩy mâu thuẫn cho chuyện phim thì đạo diễn trẻ Lê Minh Hoàng không thuyết phục người xem hiểu được những gian truân, hy sinh khi theo đuổi ước mơ, nhịp điệu phim đều đều nhàm chán, các tình tiết kiêng cưỡng thiếu thuyết phục. Điểm mạnh nhất của phim có vẻ là chuyện tình cùng những bản nhạc, nhưng cách xếp đặt lộn xộn, thiếu tiết chế nên không duy trì được sự mới lạ, hứng thú.\nPhim ảnh không chỉ là phản ảnh hiện thức nó phải đi xa hơn, phải sáng tạo những câu chuyện và nhân vật thú vị có thể không bao giờ gặp ngoài đời nhưng vẫn cho người xem cảm giác họ là một phần của nhân vật.\nNhìn chung \"Sài Gòn Trong Cơn Mưa\" dù còn nhiều khiếm khuyết vẫn có vài điểm sáng. Nhạc phim dễ nghe, hình ảnh phim được chuẩn bị tốt, một vài cảnh diễn tả niềm hạnh phúc và mất mát trong tình yêu khá ổn. Nếu không quá khó tính vẫn tìm được sự đồng cảm phần nào cho những mối tình dang dở dại khờ thời trẻ dại.",
+      "image_url": "https://cdn.moveek.com/media/cache/large/5f9ce3a7c40cb487671790.jpg"
+    },
+    {
+      "id": 5,
+      "category": "review",
+      "title": "[REVIEW] SpongeBob: Bọt Biển Đào Tẩu",
+      "date": "2020-12-05",
+      "description": "SpongeBob: Bọt Biển Đào Tẩu khá vui vẻ và thích hợp để gia đình cùng thưởng thức.",
+      "content": "Thoát li thực tại có vẻ như đang làm giải pháp nhiều người tìm kiếm để níu giữ được một chút hi vọng và lạc quan tích cực trong thời đại này, và SpongeBob: Bọt Biển Đào Tẩu là lựa chọn thích hợp bởi sự dị thường và kỳ quặc mà nó mang lại.\nVới SpongeBob: Bọt Biển Đào Tẩu, Plankton tiếp tục một kế hoạch để trộm công thức hamburger bí truyền của Krabby Patty, cuối cùng liên lụy đến ốc sên Gary, bạn thân và là thú cưng của SpongeBob bị Poseidon bắt cóc. Cuối cùng, SpongeBob cùng sao biển Patrick phải lên đường đến cung điện của Vua Poseidon để giải cứu Gary, dưới sự chỉ dẫn của một bụi cỏ khô không-biết-từ-đâu-ra được gọi là Thầy (Sage).\nLà một khán giả không mấy quen thuộc với thương hiệu SpongeBob và chưa chuẩn bị sẵn tâm lý, có thể nói rằng cốt truyện không tuân theo lẽ thường (nghe giang hồ đồn không ai xem SpongeBob vì cốt truyện cả) của SpongeBob: Bọt Biển Đào Tẩu khiến người viết có phần hơi… sốc. Nhưng không sao, chỉ sau 1 quãng thời gian ngắn làm quen thì người viết đã phát hiện ra một chân lý đó là mong đợi những thứ không mong đợi tính là thứ đáng mong đợi nhất trong phim.\nSpongeBob: Bọt Biển Đào Tẩu là cuộc phiêu lưu… chả hiểu kiểu gì của 2 nhân vật Bọt Biển và Sao Biển, bao gồm những sự kiện rất ngẫu nhiên và gần như không liên quan mấy đến nhau như giải thoát linh hồn của những zombies cao bồi cướp biển, chiến đấu với El Diablo - Người Rất Xấu Xa, hát hò, đấu kiếm... Có lẽ đối với fan lâu năm và những khán giả quen thuộc với SpongeBob SquarePants thì những tình tiết kỳ quặc đấy không có gì lạ, nhưng tổng thể, phim vẫn đầy đủ ba phần giới thiệu, cao trào và kết thúc rất hợp tình hợp lý.\nDù vậy, với đoạn giữa phim khá tốt, SpongeBob: Bọt Biển Đào Tẩu có vẻ hơi yếu tay khi về cuối phim bởi tình tiết lúc này đã không còn tính bất ngờ nữa mà rơi vào lối mòn khá dễ đoán.\nNhưng kể cả như vậy thì đây vẫn là một bộ phim thú vị, giải trí và phù hợp cho gia đình. SpongeBob: Bọt Biển Đào Tẩu là sự lựa chọn không tồi nếu bạn muốn một bộ phim không quá nặng nề và đương nhiên là… không theo lẽ thường.",
+      "image_url": "https://cdn.moveek.com/media/cache/large/5fa509e55f622554251527.jpg"
+    },
+    {
+      "id": 6,
+      "category": "review",
+      "title": "[REVIEW] Phù Thủy, Phù Thủy (The Witches)",
+      "date": "2020-12-22",
+      "description": "Phù Thủy, Phù Thủy - Bộ phim giải trí nhạt nhòa dành cho cả gia đình.",
+      "content": "Phù Thủy, Phù Thủy (The Witches) là bộ phim được remake lại từ cuốn sách cùng tên của nhà văn người Anh - Roald Dahl. Trước đó, đạo diễn Nicolas Roeg cũng từng làm nên tên tuổi từ bộ Phù Thủy, Phù Thủy(1990), sự xuất hiện của Anjeclica Huston trong hình tượng phù thủy đáng sợ, đã gây ám ảnh đối với tuổi thơ của bao thế hệ. Năm 2020, Phù Thủy, Phù Thủy một lần nữa trở lại màn ảnh dưới sự chỉ đạo của đạo diễn Robert Zemeckis và gây chú ý bởi sự tham gia của Anne Hathaway, gương mặt gây ấn tượng với khán giả bằng các tác phẩm như Les Misérables, The Dark Knight Rises...\nPhù Thủy, Phù Thủy xoay quanh cậu bé Gatsby 8 tuổi (Jahzir Bruno) mất cả bố lẫn mẹ trong một đêm Giáng sinh, sau đó được bà ngoại đón về và nuôi dưỡng. Trong một lần, để bảo vệ Gatsby khỏi thế lực phù thủy, hai bà cháu đã đến nghỉ dưỡng tại một khách sạn hạng sang.\nNhưng đáng buồn, để tránh một phù thủy thì khi đến đây hai người lại gặp \"một bầy phù thủy\" khác! Hội nghị tập hợp mọi phù thủy trên thế giới được diễn ra tại đây, nhằm phát tán một loại thuốc biến mọi đứa trẻ thành loài chuột để tiêu diệt gọn bọn chúng. Grand High Witch (Anne Hathaway) đã thử nghiệm loại thuốc mới này lên Gatsby và người bạn mới của cậu. Hành trình ba chú chuột nhỏ ngăn chặn âm mưu xấu xa của binh đoàn phù thủy bắt đầu. Liệu phe nào sẽ dành phần thắng, bọn trẻ hay phù thủy?\nTình tiết của Phù Thủy, Phù Thủy khá đơn giản, dễ đoán, phần đầu của phim giới thiệu nhân vật có đôi chút dài dòng. Hoặc ý đồ của đạo diễn muốn nhấn mạnh nhiều hơn vào tâm lý của nhân vật, nhưng có vẻ làm chưa tới dẫn đến nhịp phim kéo lê thê và gây nhàm chán. Phần ổn và đáng xem nhất của phim chính là phần giữa, khi Anne Hathaway xuất hiện, như kéo khán giả quay trở lại với bộ phim. Những cuộc chạm trán giữa \"hội bạn chuột\" và Grand High Witch tạo cho phim thêm phần kịch tính, hồi hộp, mặc dù diễn biến tiếp theo nhìn chung không có gì mới lạ.\nPhần kỹ xảo và hóa trang được tận dụng tốt và vừa đủ, hình ảnh của \"bầy phù thủy\" trên màn ảnh thêm phần ghê rợn với những u nhọt trên quả đầu trọc do phải đội tóc giả, không có ngón chân, móng tay dài thườn thượt có khả năng vươn dài… Tuy chưa thực sự ấn tượng như bản gốc, nhưng đủ hù dọa không ít trẻ nhỏ. Dù vậy, nội dung và thông điệp quen thuộc trong các bộ phim thiếu nhi được truyền tải khá sơ sài đối với người lớn, ít điểm nhấn hay ấn tượng. Mọi cảm xúc trong phim cứ trôi tuột theo thời gian, không đọng lại được gì.\nVui và không còn gì hơn thế, Phù Thủy, Phù Thủy là tác phẩm an toàn nhưng khá thất vọng của đạo diễn Robert Zemeckis, người đã từng có những bộ phim với cốt truyện cực hấp dẫn như Forest Gump, Back to the Future hay The Polar Express... Hi vọng vị đạo diễn sẽ sớm trở lại đầy mạnh mẽ với một tác phẩm khác \"nhiều muối\" hơn Phù Thủy, Phù Thủy.",
+      "image_url": "https://cdn.moveek.com/media/cache/large/5fa0bc277db4d717251970.jpg"
+    },
+    {
+      "id": 7,
+      "category": "news",
+      "title": "Home Alone - Phim thiếu nhi được yêu thích của mùa Giáng Sinh, 30 năm vẫn không mỏi mệt",
+      "date": "2020-12-20",
+      "description": "Home Alone là một hiện tượng bất ngờ khi không ai ngờ rằng nó sẽ trở thành bom tấn Giáng Sinh ở thời điểm ra mắt và đến nay vẫn còn được yêu thích.",
+      "content": "Home Alone là một hiện tượng bất ngờ khi không ai ngờ rằng nó sẽ trở thành bom tấn Giáng Sinh ở thời điểm ra mắt và đến nay vẫn còn được yêu thích.\nKhông ai ngờ rằng một bộ phim gia đình đơn giản như Home Alone (Ở Nhà Một Mình) có thể trở thành bom tấn phòng vé vào năm 1990 hay sẽ là tựa phim được yêu thích nhiều thập niên sau đó.\nKhi Disney thông báo ý định sản xuất một phần phim remake từ bản Home Alone kinh điển, đạo diễn Chris Columbus đã có những bình luận rất sắc bén. \"Đây là một sự lãng phí thời gian, theo tôi là như thế,\" Columbus chia sẻ trong một buổi phỏng vấn gần đây với Insider nhân dịp kỷ niệm 30 năm phát hành bộ phim. \"Mục đích là gì? Tôi là người tin rằng bạn không remake những phim có tuổi đời như Home Alone. Bạn sẽ không tạo ra cơn địa chấn như thế lần nữa. Nó sẽ không xảy ra.\"\nNếu bỏ qua việc bản thân vị đạo diễn cố gắng tạo ra cơn địa chấn lần nữa bằng việc đưa Kevin McCallister do Macaulay Culkin thủ vai đến New York trong phần hậu truyện, thì Columbus hoàn toàn đúng. Trên lý thuyết thì bộ phim bom tấn $476 triệu tại phòng vé chẳng có gì đặc biệt.\nCâu chuyện của nó đơn giản là bậc cha mẹ và anh chị em họ hàng đi nghỉ trong kỳ Giáng Sinh và bỏ quên cậu con trai tại sân bay, sau khi nhận ra thì họ lại bay về. Và mặc dù mọi người yêu thích những cái bẫy bạo lực có phần hài hước trong phim, thì kịch bản để lại sự kiện chính cho 30 phút cuối cùng, khi Kevin phải chống lại sự tấn công của 2 kẻ trộm cướp do Joe Pesci và Daniel Stern thủ vai.\nNếu trong bàn tay của các nhà làm phim thiếu nhi hiện đại ngày nay, thì ý tưởng có thể mở ra góc nhìn của một hooligan nhí được tự do phá phách mà không cần người giám sát, nhưng Hughes đã luôn tỏa sáng bằng việc rút ngắn khoảng cách giữa một đứa trẻ và một người trưởng thành. Điều đó tạo nên sự đặc biệt của Home Alone.\nNhững tác phẩm liên quan đến học sinh trung học bị mắc kẹt giữa những năm cuối cùng của sự thơ ngây và những bước chân đầu đời bước vào thế giới người lớn, sự căng thẳng cũng xuất hiện trong bộ phim này đối với nhân vật Kevin.\nKhông có Cha và Mẹ gò bó, Kevin tiếp xúc với sự phơi bày tính dục theo phong cách kinh điển của Hughes qua những cuốn tạp chí Playboy của anh trai, ngoại trừ việc cậu bị ghê tởm bởi những hình ảnh trong đó.\nNhân vật Kevin là phác họa của sự trưởng thành thông qua hình ảnh một đứa trẻ vị thành niên, đứa trẻ này đủ thông minh để biết rằng chủ nhà thường dùng rượu cùng bữa tối nhưng đủ trẻ con để rót sữa vào ly thay vì rượu. Cậu biết rằng dung dịch cạo râu cần được sử dụng nhưng dù cho có thoa lên mặt bao nhiêu lần thì vẫn thấy rát như thường.\nNền tảng cảm xúc của phim được hé lộ khi Kevin thôi giả vờ [làm người lớn] và đón nhận phần tính cách phù hợp với độ tuổi của mình. Đối với trí óc chưa hoàn toàn phát triển của cậu thì việc bị bỏ quên trên chuyến đi là kết quả là của điều ước không bao giờ gặp lại gia đình mình nữa, một trong những điều tổn thương mà trẻ con thường vô tình nói ra.\nKể cả khi được quây quần với những người ta yêu thương khiến người ta đôi khi cũng áp lực, nhưng nó cũng đồng thời nuôi dưỡng linh hồn. Mẹ của cậu, trong hành trình trở về, cũng nhận được một bài học rằng cần trân trọng sự tốt bụng đến từ những người xa lạ, dù cho có phiền phức như thế nào đi chăng nữa.\nMỗi đứa trẻ đều đã từng tưởng tượng cha mẹ mình đi vắng ở một thời điểm nào đó, dù là trong suy nghĩ. Kevin chỉ không may khi điều ước của cậu trở thành sự thật, và may mắn là thử thách độc nhất vô nhị này hoàn phù hợp với cậu. Thông qua đôi mắt có chiều sâu của Culkin, ánh lên một chút lém lỉnh nhưng to tròn đầy ngây thơ, và những đoạn hội thoại được Hughes rất trau chuốt, một ý tưởng bình thường chín muồi trở thành một phiên bản điện ảnh hay nhất nhất có thể có của chính nó. Nếu không phải là nhờ phép màu Giáng Sinh, thì còn là gì?",
+      "image_url": "https://cdn.moveek.com/media/cache/large/5fbb7049c673f390055287.jpg"
+    },
+    {
+      "id": 8,
+      "category": "news",
+      "title": "Hết khởi nghiệp trên màn ảnh nhỏ, Nam Joo Hyuk tiến công màn ảnh rộng với Josée, Nàng Thơ Của Tôi",
+      "date": "2020-12-19",
+      "description": "Nam Joo Hyuk sẽ vào vai chàng sinh viên bước chân vào thế giới của nàng thơ Han Ji Min trong Josée, Nàng Thơ Của Tôi.",
+      "content": "Nam Joo Hyuk sẽ vào vai chàng sinh viên bước chân vào thế giới của nàng thơ Han Ji Min trong Josée, Nàng Thơ Của Tôi.\nJosée, Nàng Thơ Của Tôi, phim điện ảnh với câu chuyện tình lãng mạn và đầy nước mắt do Nam Joo Hyuk và Han Ji Min thể hiện đã chính thức được ấn định ngày khởi chiếu tại Việt Nam trong tháng 12.\nTrong lúc Start-up, phim truyền hình lấy đề tài khởi nghiệp cực kì thu hút giới trẻ, đang dần đi đến những tập cuối cùng thì nam chính Nam Joo Hyuk đã rục rịch chiếm sóng trái tim các fan nữ trong bộ phim điện ảnh sắp công chiếu: Josée, Nàng Thơ Của Tôi.\nNếu như trong Start-up, anh chàng thần đồng toán học Nam Do San do Nam Joo Hyuk thủ vai rất thật thà, dám nghĩ dám làm, từ đầu đã được biên kịch dọn sẵn đường đến với nữ chính thì trong Josée, Nam Joo Hyuk sẽ cùng Han Ji Min vẽ nên một quãng thời gian đẹp nhất trong cuộc đời của cả hai, một mùa đông chưa từng có, dịu dàng, ngọt ngào và cũng nhiều nước mắt.\n\"Đôi khi, em muốn được cùng anh đến nơi xa xôi nhất\", giọng nói buồn man mác đầy tự sự của Han Ji Min cất lên ở đầu teaser trailer như một dự cảm về mối tình lãng mạn nhưng cũng sẽ thật buồn. Han Ji Min vào vai một cô gái khuyết tật, phải đi lại bằng xe lăn. Cô ấy tự gọi mình là \"Josée\" dựa trên quyển sách mình yêu thích, giam mình trong nhà và thế giới tưởng tượng của bản thân. Với Josée, thế giới bên ngoài thật xa xỉ và đáng sợ. Cho đến khi Young Seok (Nam Joo Hyuk) xuất hiện. Anh chàng sinh viên điển trai, thật thà đã bước vào thế giới của Josée, như thể ngọn lửa dịu dàng được thắp lên trong mùa đông băng giá. Và rồi, trong những ngày mình hạnh phúc nhất, Josée đã muốn cùng người mình yêu đi thật xa, khỏi cái thế giới tẻ nhạt bấy lâu.\nJosée, Nàng Thơ Của Tôi được chuyển thể từ truyện ngắn Josée to tora to sakana tachi/Josée – The tiger and the fish của tác giả Seiko Tanabe (Nhật Bản). Năm 2003, phiên bản chuyển thể live action đã được giới thiệu thành công và mang lại giải thưởng Nam diễn viên chính xuất sắc cho Satoshi Tsumabuki trong Hochi Film Awards. Năm 2020 này, câu chuyện đầy cảm xúc của nàng Josée trở lại màn ảnh rộng trong phiên bản điện ảnh của Hàn Quốc và phiên bản hoạt hình của Nhật Bản.\nCâu chuyện của Josée đong đầy những ký ức đẹp lãng mạn của tình yêu, niềm háo hức được khám phá thế giới. Sự nhiệt thành, quyết liệt nhưng cũng thật trắc trở của hai nhân vật chính đã từng khiến khán giả cảm thấy hạnh phúc, rồi lại đau lòng đến chảy nước mắt.\nCòn những trắc trở và cảm xúc gì trong mối tình của Josée và Young Seok? Những ký ức đẹp đẽ nhất trong Josée sẽ được giới thiệu đến khán giả dự kiến vào ngày 18.12.2020.",
+      "image_url": "https://cdn.moveek.com/media/cache/large/5fbb2dec419d8370843644.jpg"
+    },
+    {
+      "id": 9,
+      "category": "news",
+      "title": "The Croods: A New Age - Cùng ôn lại những khoảnh khắc đáng nhớ của gia đình Croods",
+      "date": "2020-12-15",
+      "description": "Cùng ôn lại những khoảnh khắc thú vị trong The Croods trước khi đến với The Croods: A New Age nhé.",
+      "content": "Ra mắt cách đây 7 năm, The Croods từng khuấy đảo các rạp chiếu với một câu chuyện phá cách tới từ xưởng phim DreamWorks. Đưa người xem trở về với thời tiền sử khi con người bắt đầu tiến hóa lên văn minh, The Croods xoay quanh cuộc sống của gia đình Crood gồm ba thế hệ đang trên hành trình tìm kiếm một mái ấm mới.\nNhững khái niệm quen thuộc trong cuộc sống hiện đại nay được soi chiếu qua con mắt của người tiền sử đã mang tới vô số phân đoạn hài hước khó quên. Từ công việc kiếm ăn hàng ngày, phản ứng khi gặp tình huống khó khăn cho tới những phát minh nhỏ mới đầu tưởng chừng vô dụng như kính râm, \"máy ảnh\" đều khiến người xem bật cười sảng khoái. Cùng điểm lại những khoảnh khắc đáng nhớ nhất của The Croods trước thềm ra mắt phần hai Gia Đình Croods: Kỷ Nguyên Mới.\nNgay từ phân đoạn mở đầu phim, khán giả được chiêu đãi một màn rượt đuổi kịch tính không ngờ. Để kiếm được bữa sáng, nhà Croods phải cực khổ \"lăn lộn\", tranh giành bằng được một quả trứng với dàn động vật cũng đang đói ăn không kém. Phối hợp ăn ý như một đội, nhà Croods với sức mạnh cơ bắp và sự nhanh nhẹn dễ dàng chiếm được ưu thế.\nLần đầu gặp mặt chàng Guy cũng là lần đầu nhà Croods nhìn thấy lửa. Đây là một khoảnh khắc vô cùng quan trọng, có ý nghĩa lớn với hành trình thay đổi nhận thức của các thành viên nhà Croods. Để sinh tồn khi bóng tối bắt đầu phủ khắp, ngọn lửa chính là \"vũ khí\" giúp họ chống lại sự săn đuổi của những loài thú nguy hiểm. Phân cảnh vô cùng ấn tượng khi ngọn lửa đỏ hồng trên tay chàng Guy giúp chặn đứng đàn chim Piranhakeet háu ăn khiến khán giả trầm trồ chẳng kém gì chính những thành viên nhà Croods lúc đấy.\nTrong khi hai bố con Grug và Thunk vẫn đang vật lộn để cướp trứng từ gà tây khổng lồ, Guy và Eep lại tìm một cách nhẹ nhàng hơn là đặt bẫy và đóng giả gà đực để quyến rũ gà mái. \"Lần đầu\" hóa thân có phần hơi vụng về này của Guy và Eep cuối cùng vẫn giúp cả nhà có được một bữa tối thịnh soạn.\nSau khi dần học được cách sử dụng \"trí khôn\", Grug cũng nảy ra hàng loạt phát minh có 1-0-2 để khẳng định mình cũng thật sự có khả năng sáng tạo. Từ lấy rắn độc làm thắt lưng, đội đá lên đầu làm nhà di động cho tới đập đá vào mặt để lưu giữ hình ảnh toàn là những điều hẳn chỉ có Grug mới có thể nghĩ ra. Mặc dù vậy đây cũng là tín hiệu đáng mừng khi Grug cuối cùng đã chịu tìm tòi để hướng tới những điều mới thay vì cương quyết phản đối các phát minh.\nCuộc hành trình của gia đình Croods sẽ sớm quay trở lại trên màn ảnh lớn khi Gia Đình Croods: Kỷ Nguyên Mới chính thức ra rạp vào ngày 27.11.2020.",
+      "image_url": "https://cdn.moveek.com/media/cache/large/5fb77fad69241502420130.png"
+    },
+    {
+      "id": 10,
+      "category": "news",
+      "title": "Bằng Chứng Vô Hình công chiếu độc quyền trên Netflix",
+      "date": "2020-12-10",
+      "description": "Bằng Chứng Vô Hình sau thời gian ra rạp đã được mua bản quyền chiếu trên Netflix.",
+      "content": "Bằng Chứng Vô Hình là phiên bản Việt hóa của bộ phim đoạt giải thưởng Hàn Quốc được sản xuất năm 2011, Nhân Chứng Mù (Blind). Bộ phim có sự góp mặt của dàn diễn viên bản địa trẻ tài năng như Phương Anh Đào, Quang Tuấn, Otis, Ái Phương, và Nguyễn Anh Tú.\nÔng Raphael Phang, Phụ trách Nội dung khu vực Đông Nam Á của Netflix cho biết: \"Chúng tôi rất hào hứng được hợp tác cùng CJ ENM để cho ra mắt Bằng Chứng Vô Hình trên nền tảng của Netflix để phục vụ khán giả Việt Nam. Chúng tôi luôn cam kết mang đến không chỉ những bộ phim danh giá nhất từ khắp nơi trên thế giới mà còn các tác phẩm kể những câu chuyện địa phương được yêu thích cho thành viên tại Việt Nam.\"\nBà Mia Park, Quản lý mảng Bán và Phân phối Quốc tế tại CJ ENM cho biết: \"CJ ENM sẽ tiếp tục đầu tư vào cộng đồng sáng tạo Việt Nam, ủng hộ những nhà sáng tạo tại địa phương nâng cao kỹ năng để sản xuất phim nội địa chất lượng cao. Thông báo ngày hôm nay là một bằng chứng nữa thể hiện sự hợp tác giữa CJ ENM và Netflix, và chúng tôi rất mong chờ phản ứng của khán giả đối với Bằng Chứng Vô Hình.\"\nPhương Anh Đào, diễn viên nữ chính trong bộ phim chia sẻ: \"Bằng Chứng Vô Hình đã để lại trong tôi những ấn tượng khó quên. Bộ phim chính là lời động viên ý nghĩa và truyền cảm hứng để mọi người vượt qua những khiếm khuyết cơ thể, chiến thắng chấn thương tâm lý nhằm đạt được cuộc đời đầy niềm hy vọng và sức sống tích cực\".\nBằng Chứng Vô Hình sẽ lên sóng Netflix vào ngày 20.11.2020.",
+      "image_url": "https://cdn.moveek.com/media/cache/large/5fb78fb248dc5621384810.jpg"
+    },
+    {
+      "id": 11,
+      "category": "news",
+      "title": "Kẻ Rình Mồi - Khi con mồi lẩn trốn kẻ sát nhân",
+      "date": "2020-12-29",
+      "description": "Kẻ Rình Mồi (Alone) là trò chơi mèo vờn chuột giữa kẻ thủ ác và nạn nhân.",
+      "content": "Tuy khai thác mô-tuýp sát nhân theo dõi và bắt cóc con mồi khá quen thuộc trong nhiều tác phẩm điện ảnh trước, nhưng với Alone (Kẻ Rình Mồi) vẫn mang đến cho hội nghiền phim kinh dị một trải nghiệm mới mẻ cho đến phút cuối cùng.\nNăm 2020 chứng kiến sự lên ngôi của các phim độc lập với kinh phí khá tiết kiệm - một hệ quả của dịch COVID-19 khi các ông lớn trong ngành phim đều đã dời lịch chiếu của những bom tấn sang năm sau. Trong số đó, vào tháng 9, bộ phim Alone (Kẻ Rình Mồi) đã từng gây tiếng vang khi công chiếu tại Mỹ bởi chất lượng khá ổn so với một phim kinh dị độc lập. Bộ phim xoay quanh hành trình trốn chạy của Jessica (Jules Willcox) khỏi sự truy đuổi của một tên sát nhân hàng loạt, do đạo diễn John Hyams cầm trịch.\nChuyện phim Kẻ Rình Mồi bắt đầu khi nữ chính Jessica đang dừng xe một mình trên đường thì có một người đàn ông lạ mặt gõ kính xe và nói chuyện với cô. Sau khi lịch sự từ chối lời mời kết bạn, Jessica tiếp tục lái xe đi. Thế nhưng, tại tất cả các điểm dừng chân dọc đường, Jessica đều chạm mặt hắn ta. Biết rằng mình đang bị bám đuôi, cô cầu cứu 911 nhưng chưa kịp nhận được sự giúp đỡ thì đã bị hắn ta xông vào tấn công. Jessica bị hắn đưa đến một căn phòng kín, và cô bàng hoàng nhận ra mình không phải là con mồi duy nhất của kẻ sát nhân…\nVì khai thác chủ đề truy đuổi - chạy trốn không quá mới lạ giữa kẻ đi săn và con mồi nên trailer chính thức của Kẻ Rình Mồi gần như đã thể hiện đầy đủ nội dung chính của bộ phim. Tuy nhiên, sức hấp dẫn của thể loại này không nằm ở cốt truyện mà lại đặt ở phần diễn biến. Làm thế nào để Jessica thoát khỏi căn nhà của tên sát nhân? Chạy trốn một mình giữa một địa điểm âm u giữa rừng, không điện thoại, không người giúp đỡ, cô sẽ phải làm gì khi hắn ta mới là kẻ thuộc rõ địa hình nơi này như lòng bàn tay? Và khi cả hai giáp mặt nhau, liệu \"con mồi\" Jessica có thể đánh bại \"kẻ đi săn\" hay không?\nVới sự chỉ đạo của đạo diễn John Hyams - người đứng sau sự thành công của loạt phim Universal Soldier. Bộ phim hứa hẹn sẽ là tác phẩm kinh dị về kẻ rình mồi nguy hiểm nhất tháng 11 này khi mang lại cho khán giả những phút giây căng thẳng tột độ cùng một cái kết đầy bất ngờ.\nKẻ Rình Mồi (Alone) khởi chiếu tại rạp từ ngày 27.11.2020.",
+      "image_url": "https://cdn.moveek.com/media/cache/large/5fb78d5a19a43664166941.png"
+    },
+    {
+      "id": 12,
+      "category": "video",
+      "title": "[TRAILER] Cậu Vàng tung trailer và poster chính thức",
+      "date": "2020-12-16",
+      "description": "Cậu Vàng tung trailer hé lộ nội dung chính.",
+      "content": "Bộ phim điện ảnh Cậu Vàng, lấy cảm hứng từ những tác phẩm văn học của nhà văn Nam Cao được cố NSND Bùi Cường, người từng thủ vai Chí Phèo trong bộ phim Làng Vũ Đại Ngày Ấy chấp bút nhằm tri ân nhà văn Nam Cao.\nĐể thực hiện tâm nguyện còn dang dở của bố vợ, đạo diễn Trần Vũ Thủy và ê kíp tiếp tục thực hiện bộ phim này. Sau first look hé lộ những thước phim đầu tiên, NSX tiếp tục tung ra teaser trailer, teaser poster của Cậu Vàng.\nSau first look được trình làng vào kỷ niệm ngày sinh của cố nhà văn Nam Cao thì teaser lần này là những phân cảnh giàu tính cảm xúc và nhiều kịch tính cao trào hơn cho người xem thấy được cảnh yên bình, hạnh phúc ấy dường như chỉ là một điều mong ước của Lão Hạc cho gia đình mình.\nTình yêu thương mà lão dành cho cậu Vàng không chỉ riêng phần mình mà cho cả thằng Cò. Bởi, cậu là kỷ vật duy nhất mà con trai lão để lại. Nhưng, vì cái đói, cái nghèo đã đẩy con người đến sự tận cùng của cái khổ và một khoảnh khắc đã khiến Lão Hạc bán cháu của mình.\nCậu Vàng được lấy cảm hứng từ những tác phẩm văn học của cố nhà văn Nam Cao, phim điện ảnh đầu tiên của Việt Nam lấy một chú chó làm một trong những nhân vật trung tâm và là đường dây, điểm sáng xuyên suốt.",
+      "image_url": "https://cdn.moveek.com/media/cache/large/5fb4a09be8cb8244802381.jpg"
+    },
+    {
+      "id": 13,
+      "category": "video",
+      "title": "Gái Già Lắm Chiêu V - Những Cuộc Đời Vương Giả tung first look dài 6 phút",
+      "date": "2020-12-12",
+      "description": "First look hoàn chỉnh của Gái Già Lắm Chiêu V đã mang đến nhiều chi tiết thú vị.",
+      "content": "Nhằm đáp lại sự trông đợi từ cộng đồng fan Gái Già Lắm Chiêu, bộ đôi đạo diễn Bảo Nhân & Nam Cito vừa cho đăng tải đoạn first look hoàn chỉnh, có thời lượng lên đến gần 6 phút của dự án Gái Già Lắm Chiêu V - Những Cuộc Đời Vương Giả, với nhiều hình ảnh, chi tiết gắn liền với đời sống tinh thần, tâm linh người Việt.\nLuôn muốn đem tới góc nhìn mới mẻ về xứ Huế, nên tại tác phẩm lần này, bộ đôi đạo diễn Bảo Nhân & Nam Cito quyết định sẽ khai thác vùng đất thần kinh ấy qua lăng kính lộng lẫy, uy quyền khác hẳn màu sắc thượng lưu, trưởng giả phô trương trong Gái Già Lắm Chiêu 3. Vì vậy, cả hai đã lựa chọn quần thể cố đô Huế - khu di tích hội tụ biết bao tinh hoa, bản sắc văn hóa dân tộc - làm bối cảnh quay.\nTiêu tốn gần 3 thập kỷ (1804 - 1833) để xây dựng, cộng thêm việc huy động hàng vạn nhân công lành nghề, Đại Nội Huế vốn sở hữu quy mô đồ sộ nhất nhì lịch sử nước ta, đồng thời được UNESCO xác nhận là Di sản Văn hóa Thế giới. Dẫu thường mang không khí trầm mặc uy nghiêm, nhưng tại first look Gái Già Lắm Chiêu V, cảnh Kaity Nguyễn và Khương Lê cưỡi ngựa dạo quanh Hoàng thành đã thổi vào địa điểm trên \"hơi thở\" hiện đại xen lẫn cảm giác huyền ảo, hoài niệm khó tả.\nKế tiếp, chiếm thời lượng lên hình nhiều nhất phim, Cung An Định xuất hiện trong clip dưới tên gọi Bạch Trà Viên – căn biệt thự mà 3 chị em Lý Gia sinh sống. Được mệnh danh là \"hòn ngọc trăm năm\", chỗ ở của gia đình vua Bảo Đại và Nam Phương Hoàng Hậu nổi tiếng bởi kiến trúc hết sức đặc sắc.\nNgoài những di tích kể trên, những ai yêu thích lịch sử cũng nhận thấy sự góp mặt của nhiều danh thắng khác xuyên suốt first look Gái Già Lắm Chiêu V, đơn cử như Điện Thái Hòa, cầu Trung Đạo hay Thái Bình Lâu, Nhật Thành Lâu…\nSong hành cùng loài hoa bạch trà - biểu tượng cho sự sang trọng, quý phái ở cả phương Đông lẫn phương Tây, phim còn thể hiện hình ảnh Phượng Hoàng bay lên khỏi chiếc rương báu. Dẫu sở hữu vẻ ngoài khá lạ lẫm, khác biệt so với loài chim Phượng Hoàng phương Tây, nhưng tạo hình ấy thực chất được dựa trên họa tiết trang trí Long – Phượng nổi tiếng thời nhà Nguyễn.\nGái Già Lắm Chiêu V - Những Cuộc Đời Vương Giả dự kiến ra mắt vào Mùng 1 Tết 2021.",
+      "image_url": "https://cdn.moveek.com/media/cache/large/5facf248732d9140861901.jpg"
+    },
+    {
+      "id": 14,
+      "category": "video",
+      "title": "[TEASER] Trạng Tí Phiêu Lưu Ký tung clip chính thức của bộ tứ Tí Sửu Dần Mẹo",
+      "date": "2020-12-05",
+      "description": "Trạng Tí đã tung teaser chính thức với những hình ảnh sống động của làng Phan Thị và bộ tứ Tí, Sửu, Dần, Mẹo.",
+      "content": "Teaser chính thức của phim điện ảnh Trạng Tí đã được Studio68 công bố. Chỉ với một phút ba mươi giây ngắn ngủi, đoạn teaser đã giới thiệu tới khán giả khung cảnh đẹp đến nao lòng của làng Phan Thị và mở ra chuyến phiêu lưu chông gai nhưng cũng không kém phần cảm động của bộ tứ Tí – Sửu – Dần – Mẹo.\nTrạng Tí là phim chuyển thể live action dựa trên bộ truyện tranh thuần Việt ăn khách nhất Việt Nam - Thần Đồng Đất Việt. Bộ phim được chỉ đạo sản xuất bởi \"đả nữ\" Ngô Thanh Vân, người đứng sau thành công của hàng loạt phim điện ảnh ăn khách như Hai Phượng, Song Lang, Cô Ba Sài Gòn... cùng đạo diễn/nhà sản xuất Phan Gia Nhật Linh, người đã thành công với những tác phẩm như Em Là Bà Nội Của Anh, Cô Gái Đến Từ Hôm Qua, hay gần đây nhất là sản xuất của bộ phim Tiệc Trăng Máu.\nĐể hiện thực hoá bối cảnh của Trạng Tí từ những trang truyện Thần Đồng Đất Việt là một thử thách lớn đối với nhà sản xuất và đạo diễn. Ngô Thanh Vân chia sẻ: \"Trạng Tí đến nay là dự án đầu tư lớn nhất của Studio68 và các đối tác, và đang chờ sự đón nhận cũng như yêu thương từ khán giả. Sự ủng hộ của mọi người sẽ như cái vỗ vai khích lệ để chúng tôi tiếp tục đi trên con đường mình đã chọn, mang đến những bộ phim thuần Việt cho người Việt.\".\nBối cảnh phim Trạng Tí được quay trải dài từ Bắc vào Nam. Qua teaser mới nhất, khán giả có thể dễ dàng nhận ra được những danh lam thắng cảnh tuyệt đẹp của Việt Nam như: Đầm Vân Long (Ninh Bình), Cây gạo thôn Đoài (Bắc Ninh), Chùa Keo (Thái Bình), Vườn quốc gia Nam Cát Tiên (Đồng Nai),…. Đặc biệt, trong bối cảnh làng Phan Thị, ekip đã xây dựng tỉ mỉ đến từng chi tiết cho từng mái nhà, lối đi và cảnh vật trong làng.\nĐoạn trailer mở màn với hình ảnh cậu bé Tí lanh lợi đưa ra những nguyên tắc cần tuân thủ nghiêm ngặt dành cho Sửu, Dần và Mẹo trước khi khởi hành. Khoác lên bộ trang phục dân dã kết hợp cùng bố tử trước ngực và mái đầu ba vá theo sát nguyên tác, cậu Tí thông minh – cô Sửu hiền lành – Dần béo tham ăn – Cả Mẹo tinh ranh hứa hẹn sẽ mang đến một hành trình vượt ngoài trí tưởng tượng.\nTrong chuyến hành trình, nhóm trẻ năm lần bảy lượt bị cuốn vào những tình huống oái ăm, từ gặp bọn cướp manh động đến bị bắt giữ tại rừng. Lúc này, một cậu bé bí ẩn đã ra tay bảo vệ nhóm Tí khỏi hiểm nguy.\nTrạng Tí Phiêu Lưu Ký được dự kiến khởi chiếu trên toàn quốc vào Mùng 1 Tết 2021 (nhằm ngày 12-02-2021).",
+      "image_url": "https://cdn.moveek.com/media/cache/large/5fa52019637ae430225948.jpg"
+    },
+    {
+      "id": 15,
+      "category": "video",
+      "title": "Bùi Lan Hương, Đạt G phối hợp đầy bất ngờ trong MV nhạc phim chính thức của Tiệc Trăng Máu",
+      "date": "2020-12-30",
+      "description": "Tiệc Trăng Máu tung MV ca nhạc chính thức mang tên Sự Thật Vỡ Đôi.",
+      "content": "MV cho ca khúc nhạc phim chính thức của Tiệc Trăng Máu mang tên Sự Thật Vỡ Đôi vừa chính thức lên sóng. MV không chỉ gây bất ngờ với màn kết hợp không ai ngờ tới giữa giọng ca ma mị Bùi Lan Hương và rapper Đạt G mà còn bởi sự xuất hiện đầy lí lắc của dàn diễn viên chính trong phim.\nSự Thật Vỡ Đôi - ca khúc nhạc phim chính thức của Tiệc Trăng Máu là sáng tác chung của nhạc sĩ Huy Tuấn và đạo diễn bộ phim Nguyễn Quang Dũng. Bài hát được thể hiện bởi giọng ca nội lực, đầy ma mị Bùi Lan Hương và rapper Đạt G. Sự kết hợp bất ngờ này đã phát huy hiệu quả và đem đến một bài hát thú vị, vừa sâu sắc, u buồn vừa cực kỳ bắt trend với những ca từ \"thả thính\" thịnh hành.\nMV Sự Thật Vỡ Đôi được quay theo phong cách gói gọn trong một khung hình điện thoại – nơi được xem là \"hố đen\" cất giấu vô vàn bí mật riêng tư của mỗi người. Bùi Lan Hương như một cô gái bị chôn vùi bên trong những tâm sự u uất, không biết giải bày cùng ai khi đối diện với những sự lừa dối, thất vọng trong tình yêu. Còn Đạt G đóng vai một người đàn ông đào hoa với nhiều bí mật đằng sau người yêu.\nNội dung bài hát với những ca từ sâu sắc đem đến cho người nghe những phút giây trầm lắng nhưng vẫn cực kỳ bùng nổ và bắt tai. Cũng giống như phim Tiệc Trăng Máu, bài hát nhạc phim là câu chuyện đáng suy ngẫm về những mối quan hệ xung quanh chúng ta và cả những lời nói dối khi bị vạch trần thông qua chiếc điện thoại.\nAnh cũng hài hước cho biết nhạc sĩ Huy Tuấn là người bị \"ăn hành\" của anh nhiều nhất. \"Tôi quý anh Huy Tuấn là anh ấy luôn đúng hẹn và ít giận dỗi. Mà nhạc phim cần như vậy vì nhạc phim nó cần mang thông điệp của phim chứ không chỉ là bài hát hay của tác giả\", Dũng \"khùng\" bày tỏ.\nNếu Bùi Lan Hương mang vẻ trầm buồn cùng nhưng câu hát da diết chạm đến trái tim người nghe như: \"Có bao nhiêu tiếng cười làm ta vui….Thì thôi lời giả dối cứ trôi. Còn vui, còn cười nói với tôi\" thì apper Đạt G mang màu sắc tươi sáng với những câu rap thả thính cực chất như: \"Màu son em thích là môi anh. Bình minh em muốn là tựa đầu vào vai anh\".\nNữ ca sĩ còn cho hay đây sẽ là bài hát mở đầu cho một chuỗi dự án nhạc phim điện ảnh của Hương trong năm nay và năm tới.\nĐặc biệt, MV Sự Thật Vỡ Đôi còn có sự xuất hiện bất ngờ và dí dỏm của dàn diễn viên trong phim gồm Thu Trang, Đức Thịnh, Kiều Minh Tuấn, Hứa Vĩ Văn, Hồng Ánh, Kaity Nguyễn. Họ như những người bạn của nhân vật nữ chính và đem đến những khoảnh khắc vui vẻ, hài hước đặc biệt cho MV.",
+      "image_url": "https://cdn.moveek.com/media/cache/large/5f9646c189c19125447376.jpg"
+    },
+    {
+      "id": 16,
+      "category": "video",
+      "title": "[TRAILER] Sài Gòn Trong Cơn Mưa tung teaser \"tình bể bình\"",
+      "date": "2020-12-26",
+      "description": "Sài Gòn Trong Cơn Mưa tung teaser đầy chất trữ tình.",
+      "content": "Sau những khoảnh khắc teaser \"tình bể bình\" của cặp đôi Anh Vũ và Đồng Mây, bộ phim Sài Gòn Trong Cơn Mưa mới đây đã tung trailer chính thức với rất nhiều mảnh ghép đã được ẩn giấu suốt thời gian qua. Không  đơn thuần là một bộ phim về tình cảm, Sài Gòn Trong Cơn Mưa khai thác nhiều hơn về sự loay hoay của những người trẻ tứ xứ đến Sài Gòn lập nghiệp với những ngã rẽ cuộc đời để tìm kiếm \"thành công\" thông qua chọn lựa \"giàu có\" hay \"hạnh phúc\".\nTrailer mới của bộ phim Sài Gòn Trong Cơn Mưa khắc họa rộng hơn về cuộc sống của chàng nhạc sĩ Anh Vũ, thay vì chỉ tập trung riêng vào câu chuyện tình cảm lãng mạn. Đó là những căng thẳng và đấu tranh giữa những người trẻ tứ xứ trong hành trình định nghĩa thành công của riêng mình ở thành phố hoa lệ.\nTrailer mở đầu bằng cuộc gặp gỡ định mệnh dưới cơn mưa Sài Gòn của hai nhân vật chính, trên nền tiếng piano êm đềm là những câu thơ mộc mạc qua giọng đọc của Đồng Mây: \"Đừng giấu niềm hạnh phúc – khi mình lỡ thương rồi – đừng sợ mai kết thúc – cứ yêu nhiều – thế thôi\". Những câu thơ ngập tràn cảm xúc cho tình yêu giữa Anh Vũ và Đồng Mây cũng đang báo hiệu một tương lai chưa chắc chắn của hai người.\nTừ những hình ảnh lãng mạn tình cảm trong teaser người xem có thể đã đoán được câu trả lời của Vũ cho sự lựa chọn giàu có hay hạnh phúc. Nhưng tới trailer lại cho ta thấy đằng sau mối quan hệ hạnh phúc của Mây Vũ là vai trò đảo ngược của cả 2 trong cuộc sống chung. Khi Đồng Mây tháo vát, chăm chỉ mưu sinh còn Anh Vũ chỉ biết mơ mộng đắm chìm trong âm nhạc.\nKhi tình yêu và sự nghiệp song hành cùng nhau, những áp lực về đồng tiền bắt đầu tìm đến những người trẻ. Lựa chọn hạnh phúc với âm nhạc của Vũ dần trở thành gánh nặng lên vai Đồng Mây để rồi đỉnh điểm cao trào, chính Hải Phong chỉ thẳng vào mặt Vũ rằng Vũ chỉ là thằng ăn bám bạn gái. Lâu lắm rồi, chúng ta mới chứng kiến một màn \"vạch mặt\" trực diện nặng nề và tổn thương đến vậy giữa những người đàn ông.\nVới vỏn vẹn hơn 2 phút, trailer Sài Gòn Trong Cơn Mưa cũng đã kịp thể hiện được khả năng diễn xuất đáng chú ý của 5 diễn viên chính. Đều là những gương mặt mới của điện ảnh, nhưng dàn diễn viên trẻ đã cho thấy khả năng biến hóa cảm xúc, độ vừa vặn, ăn ý về ngoại hình cũng như cá tính riêng biệt cho vai diễn của mình.\nĐặc biệt nhất chính là khoảnh khắc rơi nước mắt đong đầy cảm xúc của nam diễn viên chính Avin Lu, hứa hẹn Anh Vũ không còn là một vai diễn vô tư đơn giản. Ngoài ra, sự xuất hiện của diễn viên Phương Anh Đào, ca sĩ Nguyên Hà và thiết kế Trương Thanh Long cũng là những ẩn số đáng chờ đợi trong phim.\nBên cạnh đó, trailer cũng gây ấn tượng với phần hình ảnh mộc mạc, giản dị, rất Sài Gòn được thể hiện bởi DOP Nguyễn Khắc Nhật và phần âm nhạc nhiều màu sắc của nhạc sĩ Phạm Hải Âu.\nÚp mở nhiều xung đột và mâu thuẫn song trailer bộ phim vẫn không phá vỡ bầu không khí tươi trẻ, nhiều năng lượng và ngập tràn cảm xúc. Bộ phim Sài Gòn Trong Cơn Mưa sẽ ra rạp vào ngày 06.11.2020, hứa hẹn sẽ là làn gió mới tươi trẻ, đầy sinh khí cho mùa phim dịp cuối năm.",
+      "image_url": "https://cdn.moveek.com/media/cache/large/5f8d0d8a1640c232115011.jpg"
+    },
+    {
+      "id": 17,
+      "category": "video",
+      "title": "[TRAILER] Bình Ngô Đại Chiến tung trailer mãn nhãn sau thời gian dài chờ đợi",
+      "date": "2020-12-22",
+      "description": "Bình Ngô Đại Chiến - Tập phim gây quỹ cuối cùng của Việt Sử Kiêu Hùng dự kiến ra mắt cuối năm 2020.",
+      "content": "Sau khi tung poster hai phe Đại Việt - quân Minh, tối ngày 16.10, Bình Ngô Đại Chiến - phim dã sử của Việt Sử Kiêu Hùng đã chính thức tung trailer đầu tiên sau khoảng thời gian dài chờ đợi.\nBình Ngô Đại Chiến tiếp nối Đại Chiến Thành Đa Bang, tái hiện trận chiến tại Tốt Động - Chúc Động của nghĩa quân Lam Sơn, chiếu đấu chống lại quân Minh, giải phóng nhân dân khỏi kiếp nô lệ. Ba vị tướng lĩnh là Đinh Lễ, Nguyễn Xí và Lý Triện, bằng chiến thuật và lòng quả cảm, đã chỉ huy 6000 quân Thiết Đột đánh bại 100.000 quân Minh, mở đường cho nghĩa quân Lam Sơn giành thế thượng phong trước kẻ thù, góp phần giành lại độc lập.\nTrailer mở đầu bằng tiếng hát của một nữ nhân trong gió, thanh Thuận Thiên Kiếm xuất hiện, báo hiệu cho hồi đầu tiên của một loạt trận đẫm máu giữa quân Lam Sơn và quân Minh.\nSau 20 năm dằng dặc chờ đợi, khoảnh khắc định mệnh ấy cũng xuất hiện, thời điểm Đại Việt đoạt lại tự do từ những kẻ tự cho mình là mạnh mà ban phát hoà bình cho những kẻ yếu thế. Với âm nhạc từ Epic và giọng lồng tiếng hấp dẫn từ Đạt Phi Media, Bình Ngô Đại Chiến hứa hẹn sẽ làm thoả mãn khán giả cả về mặt nội dung lẫn nghe nhìn. \nBình Ngô Đại Chiến là tập phim gây quỹ cuối cùng của nhóm Việt Sử Kiêu Hùng. Phim dự kiến ra mắt vào cuối năm 2020, công chiếu tại rạp và phát hành online trên Youtube & Facebook sau đó.",
+      "image_url": "https://cdn.moveek.com/media/cache/large/5f893493107a0785141397.png"
+    },
+    {
+      "id": 18,
+      "category": "video",
+      "title": "[TRAILER] Dune xuất hiện choáng ngợp với dàn sao chói mắt",
+      "date": "2020-12-12",
+      "description": "Trailer đầu tiên của Dune được WB. tung ra tối qua (theo giờ Việt Nam).",
+      "content": "Tối qua theo giờ Việt Nam, hãng phim Warner Bros. đã tung ra trailer đầu tiên của siêu phẩm Dune - một trong những bộ phim được kỳ vọng sẽ làm mưa làm gió cuối năm 2020 này.\nPhim là chuyển thể từ cuốn tiểu thuyết cùng tên của nhà văn Frank Herbert, xuất bản tại Việt Nam với tựa đề \"Xứ Cát\".\nĐây được xem như một trong những cuốn tiểu thuyết viễn tưởng đồ sộ và vĩ đại nhất mọi thời đại, không chỉ nhuốm màu sắc phiêu lưu thần bí mà còn ẩn chứa nhiều thông điệp sâu sắc về tự do, chính trị, tôn giáo lẫn sự sống và cái chết. Cuốn tiểu thuyết xoay quanh chàng Công tước trẻ tuổi Paul Atreides, từ thân phận người thừa kế của gia tộc Atreides, cho đến khi bị phản bội, truy sát, rồi đơn độc dấn thân vào cuộc phiêu lưu sinh tử. Cũng trên hành trình đó, mỗi hành động của Paul đều là những bước đi quyết định vận mệnh của cả thiên hà.\nĐoạn video hơn 3 phút này cũng dành phần lớn thời gian giới thiệu bối cảnh và các nhân vật của phim xoay quanh nam chính Paul Atreides (Timothée Chalamet thủ vai).\nTheo thứ tự, xuất hiện đầu tiên là \"thiếu nữ mắt biếc\" Chani do Zendaya thủ vai. Trong truyện, Paul lần đầu gặp Chani trong giấc mơ với ấn tượng vô cùng sâu sắc.\nKế đó là nhân vật Mẹ Chí Tôn do nữ diễn viên gạo cội từng được đề cử Oscar và Quả Cầu Vàng - Charlotte Rampling - thể hiện. Trước khi nhận lời huấn luyện Paul, Mẹ Chí Tôn đặt ra thử thách, bắt Paul đưa tay vào chiếc hộp \"đau đớn\", một tay của bà thì dí vào cổ chàng công tước cây kim có giọt độc. Nếu không chịu được đau đớn và rụt tay lại, cây kim này sẽ giết chết cậu. Bên cạnh đó, những câu nói của bà rải rác trong suốt trailer cũng phần nào cảnh báo về trách nhiệm nặng nề và muôn trùng thử thách Paul phải gánh vác và đối mặt trong tương lai.\nNam diễn viên từng giành tượng vàng Oscar với bộ phim No Country for Old Men Javier Bardem vào vai Stilgar, thủ lĩnh Sietch Tabr, một tộc người Fremen. Ông cũng là người cưu mang và bảo vệ mẹ con Paul khi đang chạy trốn khỏi kẻ thù.\nKhông chỉ sở hữu dàn sao sáng, phiên bản điện ảnh Dune của năm 2020 còn gây chú ý khi được nhào nặn dưới bàn tay của đạo diễn Denis Villeneuve; do Eric Roth và Jon Spaihts chấp bút.\nPhụ trách phần hình ảnh đẹp đến đau tim của Dune là quay phim kỳ cựu Greig Fraser.\nDune – Dự kiến khởi chiếu tại Việt Nam từ 18.12.2020.",
+      "image_url": "https://cdn.moveek.com/media/cache/large/5f59a85117e96643893122.jpg"
+    }
+  ],
+  "events": [
+    {
+      "id": 1,
+      "title": "20-11: Mua 2 tặng 1 - Mừng ngày nhà giáo Việt Nam",
+      "description": "Nhân ngày Nhà giáo Việt Nam 20-11, Touch Cinema xin gửi những lời chúc tốt đẹp nhất đến quý thầy cô giáo.",
+      "content": "Nhân ngày Nhà giáo Việt Nam 20-11, Touch Cinema xin gửi những lời chúc tốt đẹp nhất đến quý thầy cô giáo.\nTouch cũng đã chuẩn bị những món quà ý nghĩa dành tặng đến khách hàng thành viên của Touch Cinema và đặc biệt là tri ân những người cô, người thầy.\nThể lệ chương trình:\nTrong ngày 20.11.2020, khi khách hàng thành viên Touch Cinema mua từ 2 vé xem phim sẽ được tặng ngay 1 Voucher vé xem phim 2D (VOUCHER ÁP DỤNG CHO VÉ THỨ 3). Nếu là thầy giáo cô giáo sẽ được tặng thêm một móc chìa khóa xinh xắn\n*Chương trình áp dụng cho thanh toán tại quầy và Online (Đối với khách mua Online, khuyến mãi chỉ áp dụng trực tiếp trong giao dịch ngày 20/11/2020, không quy đổi thành voucher 2D để sử dụng sau)\n*Thầy/ Cô giáo khi tham gia chương trình vui lòng mang theo Thẻ Giáo Viên hoặc giấy tờ khác tương đương\n*Chương trình áp dụng cho khách hàng thành viên Touch Cinema\n*Mỗi khách hàng được tặng 1 phần quà duy nhất trong suốt chương trình, thời hạn sử dụng Voucher 2D (được phát cho khách hàng mua vé tại quầy) đến hết 19.12.2020",
+      "expired_date": "2020-12-19",
+      "image_url": "https://touchcinema.com/storage/2011/1000x1000-2.png"
+    },
+    {
+      "id": 2,
+      "title": "Mừng ngày phụ nữ Việt Nam 20/10/2020",
+      "description": "Chương trình khuyến mãi tại Touch Cinema nhân dịp 20/10. Áp dụng từ ngày 20 đến 23/10. Mua 2 vé trở lên sẽ được tặng 1 phần nước ngọt lớn",
+      "content": "Chương trình khuyến mãi tại Touch Cinema nhân dịp 20/10\nÁp dụng từ ngày 20 đến 23/10\nMua 2 vé trở lên sẽ được tặng 1 phần nước ngọt lớn. Cách thực hiện:\nBước 1: Chọn tối thiểu 2 vé, chọn sản phẩm bạn muốn được tặng\nBước 2: nhập mã #2010 để được tặng ngay phần nước lớn*\n*Lưu ý chỉ có thể chọn sản phẩm là nước ngọt lớn: Pepsi / 7Up / Mirinda mới có thể được áp dụng\nĐối với các thành viên nữ khi mua tại quầy, chỉ cần có thẻ thành viên là sẽ được nhận ưu đãi.\nChúc tất cả chị em phụ nữ của chúng ta luôn tươi trẻ, xinh đẹp & thành công nhé!",
+      "expired_date": "2020-10-23",
+      "image_url": "https://touchcinema.com/storage/10-2020/44168549-2230111737312697-8612774386266537984-o.jpg"
+    },
+    {
+      "id": 3,
+      "title": "Cinema X Zalopay: Mua vé chỉ với 10K",
+      "description": "Chương trình mua vé qua hình thức Zalo Pay áp dụng cho lần đầu tiên khi thanh toán qua hình thức này.",
+      "content": "Chương trình mua vé qua hình thức Zalo Pay áp dụng cho lần đầu tiên khi thanh toán qua hình thức này. Khách hàng chỉ cần tải về và cài đặt phiên bản ứng dụng mới 2.0 của Touch Cinema sau đó nhập mã #ZALOPAY để sử dụng ưu đãi. \nLưu ý: Chương trình chỉ áp dụng khi mua vé online qua app hoặc website, không áp dụng tại quầy.\nNgoài ra, còn rất nhiều tiện ích và ưu đãi khác khi khách hàng cập nhật phiên bản mới 2.0 của Touch Cinema, bao gồm:\n- Đặt vé nhanh chóng với nhiều phương thức thanh toán tiện lợi qua ví Zalo, Momo, quét mã QRCode của VNPay...\n- Tính năng hẹn hò xem phim đặc biệt dành cho các thành viên của Touch đang còn FA có cơ hội tìm được bạn xem chung phù hợp để không còn cô đơn giữa rạp phim.\n- Dễ dàng quản lý e-Voucher và vé xem phim mà không cần nhập mã thủ công trên ứng dụng, không cần lo lắng khi quên đem thẻ vì chỉ cần quét mã thẻ trên ứng dụng.\n- Tự cập nhật điểm phê bình phim từ các hệ thống phê bình phim uy tín IMDB và Rotten Tomatoes, giúp các fan có cái nhìn khách quan về bộ phim.\n- Điều đặc biệt, bạn sẽ được tham gia miễn phí \"Vòng Quay May Mắn\" mỗi tháng 2 lần để có cơ hội 100% nhận nhiều ưu đãi, Voucher lên đến 1.000.000 VNĐ.",
+      "expired_date": "2021-1-20",
+      "image_url": "https://touchcinema.com/storage/zalopay/8cbf39735d05a15bf814.jpg"
+    },
+    {
+      "id": 4,
+      "title": "Vòng quay may mắn - 100% cơ hội nhận Voucher miễn phí",
+      "description": "Thông tin chính thức về chương trình VÒNG QUAY MAY MĂN tại Touch Cinema nè cả nhà ơi. Về thời gian diễn ra sự kiện: Diễn ra thường xuyên từ 12:00 đến 18:00 ngày 01 và 15 mỗi tháng.",
+      "content": "Thông tin chính thức về chương trình VÒNG QUAY MAY MĂN tại Touch Cinema nè cả nhà ơi.\n- Về thời gian diễn ra sự kiện: Diễn ra thường xuyên từ 12:00 đến 18:00 ngày 01 và 15 mỗi tháng.\n- Đối tượng tham gia: Áp dụng cho tất cả thành viên của Touch Cinema (có thẻ thành viên và đã xác thực SĐT trên tài khoản online)\n- Cách thức tham gia: Các bạn vui lòng tải ứng dụng Touch Cinema phiên bản mới nhất trên App Store hoặc Google Play, đăng nhập vào tài khoản thành viên (nhớ phải xác thực số điện thoại trước nhen).\nĐúng 12h trưa ngày 01&15 mỗi tháng các bạn sẽ được vào chơi một mini game: TÌM CẶP HÌNH GIỐNG NHAU, sau khi hoàn thành sẽ nhận lượt quay may mắn với cơ hội 100% nhận quà hấp dẫn.",
+      "expired_date": "2021-1-31",
+      "image_url": "https://touchcinema.com/storage/vong-quay-may-man/1024x768.jpg"
+    },
+    {
+      "id": 5,
+      "title": "Ưu đãi Pepsi - Đẩy lùi \"CÔ VI\"",
+      "description": "Mừng Việt Nam chiến thắng đại dịch Codid 19. Touch Cinema có chương trình ứu đãi dành cho tất cả các thành viên: ƯU ĐÃI PEPSI - ĐẨY LÙI \"CÔ VI\"",
+      "content": "Mừng Việt Nam chiến thắng đại dịch Codid 19. Touch Cinema có chương trình ứu đãi dành cho tất cả các thành viên: ƯU ĐÃI PEPSI - ĐẨY LÙI \"CÔ VI\"\nThời gian bắt đầu chương trình: 13.05.2020 - 21.05.2020\nThể lệ: Mỗi khách hàng thành viên khi mua combo bắp nước sẽ được tặng ngay 1 Pepsi (normal size).\nMỗi thẻ thành viên được tham gia 1 lần trong suốt chương trình",
+      "expired_date": "2020-05-20",
+      "image_url": "https://touchcinema.com/storage/05-2020/1000x1000.png"
+    },
+    {
+      "id": 6,
+      "title": "8/3 Giảm ngay 38K",
+      "description": "Thể lệ: Mỗi khách hàng thành viên nữ khi chi tiêu tại Touch Cinema từ 180k sẽ được giảm ngay 38k",
+      "content": "Thời gian chương trình: 8/3/2020\nThể lệ: Mỗi khách hàng thành viên nữ khi chi tiêu tại Touch Cinema từ 180k sẽ được giảm ngay 38k\nĐối với khách hàng online, nhập mã #women để được hưởng ưu đãi\nGiao dịch hợp lệ là giao dịch phát sinh từ 00:00 ngày 8/3/2020 đến hết 23:59 ngày 8/3/2020\nMỗi thẻ thành viên được tham gia 1 lần trong suốt chương trình",
+      "expired_date": "2020-03-08",
+      "image_url": "https://touchcinema.com/storage/fb-1000x1000.jpg"
+    },
+    {
+      "id": 7,
+      "title": "HAPPY BIRTHDAY Quay ngay quà đỉnh",
+      "description": "MỪNG SINH NHẬT LẦN THỨ 2 CỦA CINEMA - NAY ĐÃ LÀ \"BÉ LÊN BA\"",
+      "content": "MỪNG SINH NHẬT LẦN THỨ 2 CỦA TOUCH CINEMA - TOUCH NAY ĐÃ LÀ \"BÉ LÊN BA\"\nTouch Cinema xin gửi đến quý khách hàng đã đồng hành cùng Touch trong thời gian qua chương trình kỷ niệm \"Vòng quay may mắn\"\nThời gian áp dụng: 16/11/2020 - 31/12/2020\nĐối tượng tham gia: Khách hàng thành viên giao dịch online hoặc giao dịch tại quầy với tổng thanh toán từ 150.000 đồng trở lên\nThể lệ quay thưởng: Vòng quay thưởng được đặt tại quầy vé Touch Cinema. Sau khi nhận được lượt tham gia, quý khách hàng quay vòng quay may mắn để lựa chọn quà tặng. Lượt quay hợp lệ khi vòng quay quay từ 2 vòng trở lên.",
+      "expired_date": "2020-12-31",
+      "image_url": "https://touchcinema.com/storage/1000x1000-1581740282.png"
+    },
+    {
+      "id": 8,
+      "title": "Lì xì thả ga - Phúc lộc đầy nhà",
+      "description": "Đến Cinema, phúc lộc đầy nhà - Cinema lì xì thả ga cho cả năm may mắn.",
+      "content": "Đến Touch Cinema, phúc lộc đầy nhà - Touch Cinema lì xì thả ga cho cả năm may mắn.\nĐầu xuân năm mới ai cũng muốn nhận thật nhiều điều vui để cả năm luôn được may mắn đủ đầy và hạnh phúc. Và ngày mùng 1 đến mùng 5 Tết này, bạn đừng quên \"xông đất\" Touch Cinema để rước thật nhiều lộc xuân về nhà nhé.\n2000 bao lì xì với 500 vé xem phim, 300 combo bắp nước, cùng hàng ngàn giải quà tặng bất ngờ khác đang chờ đón khách hàng là thành viên của Touch Cinema \nCòn gì tuyệt vời hơn khi bắt đầu một năm với những bộ phim Tết cực hay lại có thêm lì xì.\nCùng nhau lên lịch du xuân với gia đình và đến Touch để hái lộc nha cả nhà.",
+      "expired_date": "2021-01-29",
+      "image_url": "https://touchcinema.com/storage/01-2020/82484863-2606149563042244-5330212821319811072-o.jpg"
+    },
+    {
+      "id": 9,
+      "title": "Thử thách Halloween - La to quà đỉnh",
+      "description": "Halloween ghé ngay Cinema check-in để có cơ hội nhận được nhiều phần quà \"siêu to khổng lồ\"",
+      "content": "Halloween ghé ngay Touch Cinema check-in để có cơ hội nhận được nhiều phần quà \"siêu to khổng lồ\"\nThể lệ chương trình: Khách hàng thành viên Touch Cinema khi mua từ 2 vé xem phim và chụp hình check in tại sảnh Touch sẽ nhận ngay 1 lượt bốc thăm trong \"Hộp quà rùng rợn\"\nCác phần quà bên trong \"Hộp quà rùng rợn\":\n-5 sạc dự phòng Anker\n-50 voucher vé xem phim\n-100 voucher combo bắp nước\nCùng hàng trăm món quà khác đang chờ bạn rinh về",
+      "expired_date": "2020-10-31",
+      "image_url": "https://touchcinema.com/storage/1000x1000.png"
+    },
+    {
+      "id": 10,
+      "title": "Chụp ảnh checkin tại Cinema nhận ngay ưu đãi 50%",
+      "description": "Chụp ảnh Checkin tại Cinema giảm giá ngay 50% quầy bắp nước.",
+      "content": "Chụp ảnh Checkin tại Touch Cinema giảm giá ngay 50% quầy bắp nước\nTrung Thu nhớ đến chụp hình checkin Touch Cinema sẽ được giảm giá 50% bắp nước luôn đó nha các bạn. Có ảnh đẹp khoe lên lại còn được khuyến mãi thế này thì quá đã. Đừng quên các bộ phim hay đang chiếu dịp trung thu tại Touch Cinema như: Thách Yêu 2 Năm, IT 2, Lời Nguyền 8 Chân, Trò Đùa Tử Thần...\nChương trình diễn ra từ 11/11/2020 - 25/12/2020. Áp dụng cho tất cả các khách hàng thành viên Touch Cinema! Giảm 50% hóa đơn quầy bắp nước (tối đa lên đến 2.000.000 Đồng)",
+      "expired_date": "2020-12-25",
+      "image_url": "https://touchcinema.com/storage/01-2019/1000x1000-1568185969.png"
+    }
+  ],
+  "showings": [
+    {
+      "id": 1,
+      "date": "2021-01-01",
+      "movieId": 2,
+      "price": 59000,
+      "cinemaId": 1,
+      "times": [
+        {
+          "start_time": "09:00",
+          "end_time": "11:30"
+        },
+        {
+          "start_time": "13:10",
+          "end_time": "14:40"
+        },
+        {
+          "start_time": "15:00",
+          "end_time": "17:30"
+        },
+        {
+          "start_time": "18:00",
+          "end_time": "20:30"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "date": "2021-01-01",
+      "movieId": 2,
+      "price": 59000,
+      "cinemaId": 2,
+      "times": [
+        {
+          "start_time": "08:00",
+          "end_time": "10:30"
+        },
+        {
+          "start_time": "12:00",
+          "end_time": "14:30"
+        },
+        {
+          "start_time": "15:00",
+          "end_time": "17:30"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "date": "2021-01-01",
+      "movieId": 2,
+      "price": 59000,
+      "cinemaId": 3,
+      "times": [
+        {
+          "start_time": "12:10",
+          "end_time": "14:40"
+        },
+        {
+          "start_time": "15:00",
+          "end_time": "17:30"
+        },
+        {
+          "start_time": "18:00",
+          "end_time": "20:30"
+        },
+        {
+          "start_time": "21:00",
+          "end_time": "23:30"
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "date": "2021-01-01",
+      "movieId": 2,
+      "price": 59000,
+      "cinemaId": 4,
+      "times": [
+        {
+          "start_time": "08:55",
+          "end_time": "11:25"
+        },
+        {
+          "start_time": "12:00",
+          "end_time": "14:30"
+        },
+        {
+          "start_time": "15:00",
+          "end_time": "17:30"
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "date": "2021-01-02",
+      "movieId": 2,
+      "price": 59000,
+      "cinemaId": 1,
+      "times": [
+        {
+          "start_time": "13:10",
+          "end_time": "14:40"
+        },
+        {
+          "start_time": "15:00",
+          "end_time": "17:30"
+        },
+        {
+          "start_time": "18:00",
+          "end_time": "20:30"
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "date": "2021-01-02",
+      "movieId": 2,
+      "price": 59000,
+      "cinemaId": 2,
+      "times": [
+        {
+          "start_time": "09:00",
+          "end_time": "11:30"
+        },
+        {
+          "start_time": "12:00",
+          "end_time": "14:30"
+        },
+        {
+          "start_time": "15:00",
+          "end_time": "17:30"
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "date": "2021-01-02",
+      "movieId": 2,
+      "price": 59000,
+      "cinemaId": 3,
+      "times": [
+        {
+          "start_time": "12:10",
+          "end_time": "14:40"
+        },
+        {
+          "start_time": "14:50",
+          "end_time": "17:20"
+        },
+        {
+          "start_time": "17:30",
+          "end_time": "20:00"
+        },
+        {
+          "start_time": "20:10",
+          "end_time": "22:40"
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "date": "2021-01-02",
+      "movieId": 2,
+      "price": 59000,
+      "cinemaId": 4,
+      "times": [
+        {
+          "start_time": "08:55",
+          "end_time": "11:25"
+        },
+        {
+          "start_time": "12:00",
+          "end_time": "14:30"
+        },
+        {
+          "start_time": "15:00",
+          "end_time": "17:30"
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "date": "2021-01-03",
+      "movieId": 2,
+      "price": 59000,
+      "cinemaId": 1,
+      "times": [
+        {
+          "start_time": "09:00",
+          "end_time": "11:30"
+        },
+        {
+          "start_time": "13:10",
+          "end_time": "14:40"
+        },
+        {
+          "start_time": "15:00",
+          "end_time": "17:30"
+        },
+        {
+          "start_time": "18:00",
+          "end_time": "20:30"
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "date": "2021-01-03",
+      "movieId": 2,
+      "price": 59000,
+      "cinemaId": 2,
+      "times": [
+        {
+          "start_time": "12:10",
+          "end_time": "14:40"
+        },
+        {
+          "start_time": "14:50",
+          "end_time": "17:20"
+        },
+        {
+          "start_time": "17:30",
+          "end_time": "20:00"
+        },
+        {
+          "start_time": "20:10",
+          "end_time": "22:40"
+        }
+      ]
+    },
+    {
+      "id": 11,
+      "date": "2021-01-03",
+      "movieId": 2,
+      "price": 59000,
+      "cinemaId": 3,
+      "times": [
+        {
+          "start_time": "13:10",
+          "end_time": "14:40"
+        },
+        {
+          "start_time": "15:00",
+          "end_time": "17:30"
+        },
+        {
+          "start_time": "18:00",
+          "end_time": "20:30"
+        }
+      ]
+    },
+    {
+      "id": 12,
+      "date": "2021-01-03",
+      "movieId": 2,
+      "price": 59000,
+      "cinemaId": 4,
+      "times": [
+        {
+          "start_time": "08:55",
+          "end_time": "11:25"
+        },
+        {
+          "start_time": "12:00",
+          "end_time": "14:30"
+        },
+        {
+          "start_time": "15:00",
+          "end_time": "17:30"
+        }
+      ]
+    },
+    {
+      "id": 13,
+      "date": "2021-01-04",
+      "movieId": 2,
+      "price": 59000,
+      "cinemaId": 1,
+      "times": [
+        {
+          "start_time": "09:00",
+          "end_time": "11:30"
+        },
+        {
+          "start_time": "13:10",
+          "end_time": "14:40"
+        },
+        {
+          "start_time": "15:00",
+          "end_time": "17:30"
+        },
+        {
+          "start_time": "18:00",
+          "end_time": "20:30"
+        }
+      ]
+    },
+    {
+      "id": 14,
+      "date": "2021-01-04",
+      "movieId": 2,
+      "price": 59000,
+      "cinemaId": 2,
+      "times": [
+        {
+          "start_time": "08:55",
+          "end_time": "11:25"
+        },
+        {
+          "start_time": "12:00",
+          "end_time": "14:30"
+        },
+        {
+          "start_time": "15:00",
+          "end_time": "17:30"
+        }
+      ]
+    },
+    {
+      "id": 15,
+      "date": "2021-01-04",
+      "movieId": 2,
+      "price": 59000,
+      "cinemaId": 3,
+      "times": [
+        {
+          "start_time": "12:10",
+          "end_time": "14:40"
+        },
+        {
+          "start_time": "15:00",
+          "end_time": "17:30"
+        },
+        {
+          "start_time": "18:00",
+          "end_time": "20:30"
+        },
+        {
+          "start_time": "21:00",
+          "end_time": "23:30"
+        }
+      ]
+    },
+    {
+      "id": 16,
+      "date": "2021-01-04",
+      "movieId": 2,
+      "price": 59000,
+      "cinemaId": 4,
+      "times": [
+        {
+          "start_time": "08:55",
+          "end_time": "11:25"
+        },
+        {
+          "start_time": "12:00",
+          "end_time": "14:30"
+        },
+        {
+          "start_time": "15:00",
+          "end_time": "17:30"
+        }
+      ]
+    },
+    {
+      "id": 17,
+      "date": "2021-01-05",
+      "movieId": 2,
+      "price": 59000,
+      "cinemaId": 1,
+      "times": [
+        {
+          "start_time": "09:00",
+          "end_time": "11:30"
+        },
+        {
+          "start_time": "13:10",
+          "end_time": "14:40"
+        },
+        {
+          "start_time": "15:00",
+          "end_time": "17:30"
+        },
+        {
+          "start_time": "18:00",
+          "end_time": "20:30"
+        }
+      ]
+    },
+    {
+      "id": 18,
+      "date": "2021-01-05",
+      "movieId": 2,
+      "price": 59000,
+      "cinemaId": 2,
+      "times": [
+        {
+          "start_time": "08:00",
+          "end_time": "10:30"
+        },
+        {
+          "start_time": "12:00",
+          "end_time": "14:30"
+        },
+        {
+          "start_time": "15:00",
+          "end_time": "17:30"
+        }
+      ]
+    },
+    {
+      "id": 19,
+      "date": "2021-01-05",
+      "movieId": 2,
+      "price": 59000,
+      "cinemaId": 3,
+      "times": [
+        {
+          "start_time": "12:10",
+          "end_time": "14:40"
+        },
+        {
+          "start_time": "15:00",
+          "end_time": "17:30"
+        },
+        {
+          "start_time": "18:00",
+          "end_time": "20:30"
+        },
+        {
+          "start_time": "21:00",
+          "end_time": "23:30"
+        }
+      ]
+    },
+    {
+      "id": 20,
+      "date": "2021-01-05",
+      "movieId": 2,
+      "price": 59000,
+      "cinemaId": 4,
+      "times": [
+        {
+          "start_time": "08:55",
+          "end_time": "11:25"
+        },
+        {
+          "start_time": "12:00",
+          "end_time": "14:30"
+        },
+        {
+          "start_time": "15:00",
+          "end_time": "17:30"
+        }
+      ]
+    },
+    {
+      "id": 21,
+      "date": "2021-01-01",
+      "movieId": 4,
+      "price": 49000,
+      "cinemaId": 1,
+      "times": [
+        {
+          "start_time": "09:00",
+          "end_time": "11:30"
+        },
+        {
+          "start_time": "13:10",
+          "end_time": "14:40"
+        },
+        {
+          "start_time": "15:00",
+          "end_time": "17:30"
+        },
+        {
+          "start_time": "18:00",
+          "end_time": "20:30"
+        }
+      ]
+    },
+    {
+      "id": 22,
+      "date": "2021-01-01",
+      "movieId": 4,
+      "price": 49000,
+      "cinemaId": 2,
+      "times": [
+        {
+          "start_time": "08:00",
+          "end_time": "10:30"
+        },
+        {
+          "start_time": "12:00",
+          "end_time": "14:30"
+        },
+        {
+          "start_time": "15:00",
+          "end_time": "17:30"
+        }
+      ]
+    },
+    {
+      "id": 23,
+      "date": "2021-01-01",
+      "movieId": 4,
+      "price": 49000,
+      "cinemaId": 3,
+      "times": [
+        {
+          "start_time": "12:10",
+          "end_time": "14:40"
+        },
+        {
+          "start_time": "15:00",
+          "end_time": "17:30"
+        },
+        {
+          "start_time": "18:00",
+          "end_time": "20:30"
+        },
+        {
+          "start_time": "21:00",
+          "end_time": "23:30"
+        }
+      ]
+    },
+    {
+      "id": 24,
+      "date": "2021-01-01",
+      "movieId": 4,
+      "price": 49000,
+      "cinemaId": 4,
+      "times": [
+        {
+          "start_time": "08:55",
+          "end_time": "11:25"
+        },
+        {
+          "start_time": "12:00",
+          "end_time": "14:30"
+        },
+        {
+          "start_time": "15:00",
+          "end_time": "17:30"
+        }
+      ]
+    },
+    {
+      "id": 25,
+      "date": "2021-01-02",
+      "movieId": 4,
+      "price": 49000,
+      "cinemaId": 1,
+      "times": [
+        {
+          "start_time": "13:10",
+          "end_time": "14:40"
+        },
+        {
+          "start_time": "15:00",
+          "end_time": "17:30"
+        },
+        {
+          "start_time": "18:00",
+          "end_time": "20:30"
+        }
+      ]
+    },
+    {
+      "id": 26,
+      "date": "2021-01-02",
+      "movieId": 4,
+      "price": 49000,
+      "cinemaId": 2,
+      "times": [
+        {
+          "start_time": "09:00",
+          "end_time": "11:30"
+        },
+        {
+          "start_time": "12:00",
+          "end_time": "14:30"
+        },
+        {
+          "start_time": "15:00",
+          "end_time": "17:30"
+        }
+      ]
+    },
+    {
+      "id": 27,
+      "date": "2021-01-02",
+      "movieId": 4,
+      "price": 49000,
+      "cinemaId": 3,
+      "times": [
+        {
+          "start_time": "12:10",
+          "end_time": "14:40"
+        },
+        {
+          "start_time": "14:50",
+          "end_time": "17:20"
+        },
+        {
+          "start_time": "17:30",
+          "end_time": "20:00"
+        },
+        {
+          "start_time": "20:10",
+          "end_time": "22:40"
+        }
+      ]
+    },
+    {
+      "id": 28,
+      "date": "2021-01-02",
+      "movieId": 4,
+      "price": 49000,
+      "cinemaId": 4,
+      "times": [
+        {
+          "start_time": "08:55",
+          "end_time": "11:25"
+        },
+        {
+          "start_time": "12:00",
+          "end_time": "14:30"
+        },
+        {
+          "start_time": "15:00",
+          "end_time": "17:30"
+        }
+      ]
+    },
+    {
+      "id": 29,
+      "date": "2021-01-03",
+      "movieId": 4,
+      "price": 49000,
+      "cinemaId": 1,
+      "times": [
+        {
+          "start_time": "09:00",
+          "end_time": "11:30"
+        },
+        {
+          "start_time": "13:10",
+          "end_time": "14:40"
+        },
+        {
+          "start_time": "15:00",
+          "end_time": "17:30"
+        },
+        {
+          "start_time": "18:00",
+          "end_time": "20:30"
+        }
+      ]
+    },
+    {
+      "id": 30,
+      "date": "2021-01-03",
+      "movieId": 4,
+      "price": 49000,
+      "cinemaId": 2,
+      "times": [
+        {
+          "start_time": "12:10",
+          "end_time": "14:40"
+        },
+        {
+          "start_time": "14:50",
+          "end_time": "17:20"
+        },
+        {
+          "start_time": "17:30",
+          "end_time": "20:00"
+        },
+        {
+          "start_time": "20:10",
+          "end_time": "22:40"
+        }
+      ]
+    },
+    {
+      "id": 31,
+      "date": "2021-01-03",
+      "movieId": 4,
+      "price": 49000,
+      "cinemaId": 3,
+      "times": [
+        {
+          "start_time": "13:10",
+          "end_time": "14:40"
+        },
+        {
+          "start_time": "15:00",
+          "end_time": "17:30"
+        },
+        {
+          "start_time": "18:00",
+          "end_time": "20:30"
+        }
+      ]
+    },
+    {
+      "id": 32,
+      "date": "2021-01-03",
+      "movieId": 4,
+      "price": 49000,
+      "cinemaId": 4,
+      "times": [
+        {
+          "start_time": "08:55",
+          "end_time": "11:25"
+        },
+        {
+          "start_time": "12:00",
+          "end_time": "14:30"
+        },
+        {
+          "start_time": "15:00",
+          "end_time": "17:30"
+        }
+      ]
+    },
+    {
+      "id": 33,
+      "date": "2021-01-04",
+      "movieId": 4,
+      "price": 49000,
+      "cinemaId": 1,
+      "times": [
+        {
+          "start_time": "09:00",
+          "end_time": "11:30"
+        },
+        {
+          "start_time": "13:10",
+          "end_time": "14:40"
+        },
+        {
+          "start_time": "15:00",
+          "end_time": "17:30"
+        },
+        {
+          "start_time": "18:00",
+          "end_time": "20:30"
+        }
+      ]
+    },
+    {
+      "id": 34,
+      "date": "2021-01-04",
+      "movieId": 4,
+      "price": 49000,
+      "cinemaId": 2,
+      "times": [
+        {
+          "start_time": "08:55",
+          "end_time": "11:25"
+        },
+        {
+          "start_time": "12:00",
+          "end_time": "14:30"
+        },
+        {
+          "start_time": "15:00",
+          "end_time": "17:30"
+        }
+      ]
+    },
+    {
+      "id": 35,
+      "date": "2021-01-04",
+      "movieId": 4,
+      "price": 49000,
+      "cinemaId": 3,
+      "times": [
+        {
+          "start_time": "12:10",
+          "end_time": "14:40"
+        },
+        {
+          "start_time": "15:00",
+          "end_time": "17:30"
+        },
+        {
+          "start_time": "18:00",
+          "end_time": "20:30"
+        },
+        {
+          "start_time": "21:00",
+          "end_time": "23:30"
+        }
+      ]
+    },
+    {
+      "id": 36,
+      "date": "2021-01-04",
+      "movieId": 4,
+      "price": 49000,
+      "cinemaId": 4,
+      "times": [
+        {
+          "start_time": "08:55",
+          "end_time": "11:25"
+        },
+        {
+          "start_time": "12:00",
+          "end_time": "14:30"
+        },
+        {
+          "start_time": "15:00",
+          "end_time": "17:30"
+        }
+      ]
+    },
+    {
+      "id": 37,
+      "date": "2021-01-05",
+      "movieId": 4,
+      "price": 49000,
+      "cinemaId": 1,
+      "times": [
+        {
+          "start_time": "09:00",
+          "end_time": "11:30"
+        },
+        {
+          "start_time": "13:10",
+          "end_time": "14:40"
+        },
+        {
+          "start_time": "15:00",
+          "end_time": "17:30"
+        },
+        {
+          "start_time": "18:00",
+          "end_time": "20:30"
+        }
+      ]
+    },
+    {
+      "id": 38,
+      "date": "2021-01-05",
+      "movieId": 4,
+      "price": 49000,
+      "cinemaId": 2,
+      "times": [
+        {
+          "start_time": "08:00",
+          "end_time": "10:30"
+        },
+        {
+          "start_time": "12:00",
+          "end_time": "14:30"
+        },
+        {
+          "start_time": "15:00",
+          "end_time": "17:30"
+        }
+      ]
+    },
+    {
+      "id": 39,
+      "date": "2021-01-05",
+      "movieId": 4,
+      "price": 49000,
+      "cinemaId": 3,
+      "times": [
+        {
+          "start_time": "12:10",
+          "end_time": "14:40"
+        },
+        {
+          "start_time": "15:00",
+          "end_time": "17:30"
+        },
+        {
+          "start_time": "18:00",
+          "end_time": "20:30"
+        },
+        {
+          "start_time": "21:00",
+          "end_time": "23:30"
+        }
+      ]
+    },
+    {
+      "id": 40,
+      "date": "2021-01-05",
+      "movieId": 4,
+      "price": 49000,
+      "cinemaId": 4,
+      "times": [
+        {
+          "start_time": "08:55",
+          "end_time": "11:25"
+        },
+        {
+          "start_time": "12:00",
+          "end_time": "14:30"
+        },
+        {
+          "start_time": "15:00",
+          "end_time": "17:30"
+        }
+      ]
+    },
+    {
+      "id": 41,
+      "date": "2021-01-01",
+      "movieId": 6,
+      "price": 79000,
+      "cinemaId": 1,
+      "times": [
+        {
+          "start_time": "09:00",
+          "end_time": "11:30"
+        },
+        {
+          "start_time": "13:10",
+          "end_time": "14:40"
+        },
+        {
+          "start_time": "15:00",
+          "end_time": "17:30"
+        },
+        {
+          "start_time": "18:00",
+          "end_time": "20:30"
+        }
+      ]
+    },
+    {
+      "id": 42,
+      "date": "2021-01-01",
+      "movieId": 6,
+      "price": 79000,
+      "cinemaId": 2,
+      "times": [
+        {
+          "start_time": "08:00",
+          "end_time": "10:30"
+        },
+        {
+          "start_time": "12:00",
+          "end_time": "14:30"
+        },
+        {
+          "start_time": "15:00",
+          "end_time": "17:30"
+        }
+      ]
+    },
+    {
+      "id": 43,
+      "date": "2021-01-01",
+      "movieId": 6,
+      "price": 79000,
+      "cinemaId": 3,
+      "times": [
+        {
+          "start_time": "12:10",
+          "end_time": "14:40"
+        },
+        {
+          "start_time": "15:00",
+          "end_time": "17:30"
+        },
+        {
+          "start_time": "18:00",
+          "end_time": "20:30"
+        },
+        {
+          "start_time": "21:00",
+          "end_time": "23:30"
+        }
+      ]
+    },
+    {
+      "id": 44,
+      "date": "2021-01-01",
+      "movieId": 6,
+      "price": 79000,
+      "cinemaId": 4,
+      "times": [
+        {
+          "start_time": "08:55",
+          "end_time": "11:25"
+        },
+        {
+          "start_time": "12:00",
+          "end_time": "14:30"
+        },
+        {
+          "start_time": "15:00",
+          "end_time": "17:30"
+        }
+      ]
+    },
+    {
+      "id": 45,
+      "date": "2021-01-02",
+      "movieId": 6,
+      "price": 79000,
+      "cinemaId": 1,
+      "times": [
+        {
+          "start_time": "13:10",
+          "end_time": "14:40"
+        },
+        {
+          "start_time": "15:00",
+          "end_time": "17:30"
+        },
+        {
+          "start_time": "18:00",
+          "end_time": "20:30"
+        }
+      ]
+    },
+    {
+      "id": 46,
+      "date": "2021-01-02",
+      "movieId": 6,
+      "price": 79000,
+      "cinemaId": 2,
+      "times": [
+        {
+          "start_time": "09:00",
+          "end_time": "11:30"
+        },
+        {
+          "start_time": "12:00",
+          "end_time": "14:30"
+        },
+        {
+          "start_time": "15:00",
+          "end_time": "17:30"
+        }
+      ]
+    },
+    {
+      "id": 47,
+      "date": "2021-01-02",
+      "movieId": 6,
+      "price": 79000,
+      "cinemaId": 3,
+      "times": [
+        {
+          "start_time": "12:10",
+          "end_time": "14:40"
+        },
+        {
+          "start_time": "14:50",
+          "end_time": "17:20"
+        },
+        {
+          "start_time": "17:30",
+          "end_time": "20:00"
+        },
+        {
+          "start_time": "20:10",
+          "end_time": "22:40"
+        }
+      ]
+    },
+    {
+      "id": 48,
+      "date": "2021-01-02",
+      "movieId": 6,
+      "price": 79000,
+      "cinemaId": 4,
+      "times": [
+        {
+          "start_time": "08:55",
+          "end_time": "11:25"
+        },
+        {
+          "start_time": "12:00",
+          "end_time": "14:30"
+        },
+        {
+          "start_time": "15:00",
+          "end_time": "17:30"
+        }
+      ]
+    },
+    {
+      "id": 49,
+      "date": "2021-01-03",
+      "movieId": 6,
+      "price": 79000,
+      "cinemaId": 1,
+      "times": [
+        {
+          "start_time": "09:00",
+          "end_time": "11:30"
+        },
+        {
+          "start_time": "13:10",
+          "end_time": "14:40"
+        },
+        {
+          "start_time": "15:00",
+          "end_time": "17:30"
+        },
+        {
+          "start_time": "18:00",
+          "end_time": "20:30"
+        }
+      ]
+    },
+    {
+      "id": 50,
+      "date": "2021-01-03",
+      "movieId": 6,
+      "price": 79000,
+      "cinemaId": 2,
+      "times": [
+        {
+          "start_time": "12:10",
+          "end_time": "14:40"
+        },
+        {
+          "start_time": "14:50",
+          "end_time": "17:20"
+        },
+        {
+          "start_time": "17:30",
+          "end_time": "20:00"
+        },
+        {
+          "start_time": "20:10",
+          "end_time": "22:40"
+        }
+      ]
+    },
+    {
+      "id": 51,
+      "date": "2021-01-03",
+      "movieId": 6,
+      "price": 79000,
+      "cinemaId": 3,
+      "times": [
+        {
+          "start_time": "13:10",
+          "end_time": "14:40"
+        },
+        {
+          "start_time": "15:00",
+          "end_time": "17:30"
+        },
+        {
+          "start_time": "18:00",
+          "end_time": "20:30"
+        }
+      ]
+    },
+    {
+      "id": 52,
+      "date": "2021-01-03",
+      "movieId": 6,
+      "price": 79000,
+      "cinemaId": 4,
+      "times": [
+        {
+          "start_time": "08:55",
+          "end_time": "11:25"
+        },
+        {
+          "start_time": "12:00",
+          "end_time": "14:30"
+        },
+        {
+          "start_time": "15:00",
+          "end_time": "17:30"
+        }
+      ]
+    },
+    {
+      "id": 53,
+      "date": "2021-01-04",
+      "movieId": 6,
+      "price": 79000,
+      "cinemaId": 1,
+      "times": [
+        {
+          "start_time": "09:00",
+          "end_time": "11:30"
+        },
+        {
+          "start_time": "13:10",
+          "end_time": "14:40"
+        },
+        {
+          "start_time": "15:00",
+          "end_time": "17:30"
+        },
+        {
+          "start_time": "18:00",
+          "end_time": "20:30"
+        }
+      ]
+    },
+    {
+      "id": 54,
+      "date": "2021-01-04",
+      "movieId": 6,
+      "price": 79000,
+      "cinemaId": 2,
+      "times": [
+        {
+          "start_time": "08:55",
+          "end_time": "11:25"
+        },
+        {
+          "start_time": "12:00",
+          "end_time": "14:30"
+        },
+        {
+          "start_time": "15:00",
+          "end_time": "17:30"
+        }
+      ]
+    },
+    {
+      "id": 55,
+      "date": "2021-01-04",
+      "movieId": 6,
+      "price": 79000,
+      "cinemaId": 3,
+      "times": [
+        {
+          "start_time": "12:10",
+          "end_time": "14:40"
+        },
+        {
+          "start_time": "15:00",
+          "end_time": "17:30"
+        },
+        {
+          "start_time": "18:00",
+          "end_time": "20:30"
+        },
+        {
+          "start_time": "21:00",
+          "end_time": "23:30"
+        }
+      ]
+    },
+    {
+      "id": 56,
+      "date": "2021-01-04",
+      "movieId": 6,
+      "price": 79000,
+      "cinemaId": 4,
+      "times": [
+        {
+          "start_time": "08:55",
+          "end_time": "11:25"
+        },
+        {
+          "start_time": "12:00",
+          "end_time": "14:30"
+        },
+        {
+          "start_time": "15:00",
+          "end_time": "17:30"
+        }
+      ]
+    },
+    {
+      "id": 57,
+      "date": "2021-01-05",
+      "movieId": 6,
+      "price": 79000,
+      "cinemaId": 1,
+      "times": [
+        {
+          "start_time": "09:00",
+          "end_time": "11:30"
+        },
+        {
+          "start_time": "13:10",
+          "end_time": "14:40"
+        },
+        {
+          "start_time": "15:00",
+          "end_time": "17:30"
+        },
+        {
+          "start_time": "18:00",
+          "end_time": "20:30"
+        }
+      ]
+    },
+    {
+      "id": 58,
+      "date": "2021-01-05",
+      "movieId": 6,
+      "price": 79000,
+      "cinemaId": 2,
+      "times": [
+        {
+          "start_time": "08:00",
+          "end_time": "10:30"
+        },
+        {
+          "start_time": "12:00",
+          "end_time": "14:30"
+        },
+        {
+          "start_time": "15:00",
+          "end_time": "17:30"
+        }
+      ]
+    },
+    {
+      "id": 59,
+      "date": "2021-01-05",
+      "movieId": 6,
+      "price": 79000,
+      "cinemaId": 3,
+      "times": [
+        {
+          "start_time": "12:10",
+          "end_time": "14:40"
+        },
+        {
+          "start_time": "15:00",
+          "end_time": "17:30"
+        },
+        {
+          "start_time": "18:00",
+          "end_time": "20:30"
+        },
+        {
+          "start_time": "21:00",
+          "end_time": "23:30"
+        }
+      ]
+    },
+    {
+      "id": 60,
+      "date": "2021-01-05",
+      "movieId": 6,
+      "price": 79000,
+      "cinemaId": 4,
+      "times": [
+        {
+          "start_time": "08:55",
+          "end_time": "11:25"
+        },
+        {
+          "start_time": "12:00",
+          "end_time": "14:30"
+        },
+        {
+          "start_time": "15:00",
+          "end_time": "17:30"
+        }
+      ]
+    },
+    {
+      "id": 61,
+      "date": "2021-01-01",
+      "movieId": 8,
+      "price": 59000,
+      "cinemaId": 1,
+      "times": [
+        {
+          "start_time": "09:00",
+          "end_time": "11:30"
+        },
+        {
+          "start_time": "13:10",
+          "end_time": "14:40"
+        },
+        {
+          "start_time": "15:00",
+          "end_time": "17:30"
+        },
+        {
+          "start_time": "18:00",
+          "end_time": "20:30"
+        }
+      ]
+    },
+    {
+      "id": 62,
+      "date": "2021-01-01",
+      "movieId": 8,
+      "price": 59000,
+      "cinemaId": 2,
+      "times": [
+        {
+          "start_time": "08:00",
+          "end_time": "10:30"
+        },
+        {
+          "start_time": "12:00",
+          "end_time": "14:30"
+        },
+        {
+          "start_time": "15:00",
+          "end_time": "17:30"
+        }
+      ]
+    },
+    {
+      "id": 63,
+      "date": "2021-01-01",
+      "movieId": 8,
+      "price": 59000,
+      "cinemaId": 3,
+      "times": [
+        {
+          "start_time": "12:10",
+          "end_time": "14:40"
+        },
+        {
+          "start_time": "15:00",
+          "end_time": "17:30"
+        },
+        {
+          "start_time": "18:00",
+          "end_time": "20:30"
+        },
+        {
+          "start_time": "21:00",
+          "end_time": "23:30"
+        }
+      ]
+    },
+    {
+      "id": 64,
+      "date": "2021-01-01",
+      "movieId": 8,
+      "price": 59000,
+      "cinemaId": 4,
+      "times": [
+        {
+          "start_time": "08:55",
+          "end_time": "11:25"
+        },
+        {
+          "start_time": "12:00",
+          "end_time": "14:30"
+        },
+        {
+          "start_time": "15:00",
+          "end_time": "17:30"
+        }
+      ]
+    },
+    {
+      "id": 65,
+      "date": "2021-01-02",
+      "movieId": 8,
+      "price": 59000,
+      "cinemaId": 1,
+      "times": [
+        {
+          "start_time": "13:10",
+          "end_time": "14:40"
+        },
+        {
+          "start_time": "15:00",
+          "end_time": "17:30"
+        },
+        {
+          "start_time": "18:00",
+          "end_time": "20:30"
+        }
+      ]
+    },
+    {
+      "id": 66,
+      "date": "2021-01-02",
+      "movieId": 8,
+      "price": 59000,
+      "cinemaId": 2,
+      "times": [
+        {
+          "start_time": "09:00",
+          "end_time": "11:30"
+        },
+        {
+          "start_time": "12:00",
+          "end_time": "14:30"
+        },
+        {
+          "start_time": "15:00",
+          "end_time": "17:30"
+        }
+      ]
+    },
+    {
+      "id": 67,
+      "date": "2021-01-02",
+      "movieId": 8,
+      "price": 59000,
+      "cinemaId": 3,
+      "times": [
+        {
+          "start_time": "12:10",
+          "end_time": "14:40"
+        },
+        {
+          "start_time": "14:50",
+          "end_time": "17:20"
+        },
+        {
+          "start_time": "17:30",
+          "end_time": "20:00"
+        },
+        {
+          "start_time": "20:10",
+          "end_time": "22:40"
+        }
+      ]
+    },
+    {
+      "id": 68,
+      "date": "2021-01-02",
+      "movieId": 8,
+      "price": 59000,
+      "cinemaId": 4,
+      "times": [
+        {
+          "start_time": "08:55",
+          "end_time": "11:25"
+        },
+        {
+          "start_time": "12:00",
+          "end_time": "14:30"
+        },
+        {
+          "start_time": "15:00",
+          "end_time": "17:30"
+        }
+      ]
+    },
+    {
+      "id": 69,
+      "date": "2021-01-03",
+      "movieId": 8,
+      "price": 59000,
+      "cinemaId": 1,
+      "times": [
+        {
+          "start_time": "09:00",
+          "end_time": "11:30"
+        },
+        {
+          "start_time": "13:10",
+          "end_time": "14:40"
+        },
+        {
+          "start_time": "15:00",
+          "end_time": "17:30"
+        },
+        {
+          "start_time": "18:00",
+          "end_time": "20:30"
+        }
+      ]
+    },
+    {
+      "id": 70,
+      "date": "2021-01-03",
+      "movieId": 8,
+      "price": 59000,
+      "cinemaId": 2,
+      "times": [
+        {
+          "start_time": "12:10",
+          "end_time": "14:40"
+        },
+        {
+          "start_time": "14:50",
+          "end_time": "17:20"
+        },
+        {
+          "start_time": "17:30",
+          "end_time": "20:00"
+        },
+        {
+          "start_time": "20:10",
+          "end_time": "22:40"
+        }
+      ]
+    },
+    {
+      "id": 71,
+      "date": "2021-01-03",
+      "movieId": 8,
+      "price": 59000,
+      "cinemaId": 3,
+      "times": [
+        {
+          "start_time": "13:10",
+          "end_time": "14:40"
+        },
+        {
+          "start_time": "15:00",
+          "end_time": "17:30"
+        },
+        {
+          "start_time": "18:00",
+          "end_time": "20:30"
+        }
+      ]
+    },
+    {
+      "id": 72,
+      "date": "2021-01-03",
+      "movieId": 8,
+      "price": 59000,
+      "cinemaId": 4,
+      "times": [
+        {
+          "start_time": "08:55",
+          "end_time": "11:25"
+        },
+        {
+          "start_time": "12:00",
+          "end_time": "14:30"
+        },
+        {
+          "start_time": "15:00",
+          "end_time": "17:30"
+        }
+      ]
+    },
+    {
+      "id": 73,
+      "date": "2021-01-04",
+      "movieId": 8,
+      "price": 59000,
+      "cinemaId": 1,
+      "times": [
+        {
+          "start_time": "09:00",
+          "end_time": "11:30"
+        },
+        {
+          "start_time": "13:10",
+          "end_time": "14:40"
+        },
+        {
+          "start_time": "15:00",
+          "end_time": "17:30"
+        },
+        {
+          "start_time": "18:00",
+          "end_time": "20:30"
+        }
+      ]
+    },
+    {
+      "id": 74,
+      "date": "2021-01-04",
+      "movieId": 8,
+      "price": 59000,
+      "cinemaId": 2,
+      "times": [
+        {
+          "start_time": "08:55",
+          "end_time": "11:25"
+        },
+        {
+          "start_time": "12:00",
+          "end_time": "14:30"
+        },
+        {
+          "start_time": "15:00",
+          "end_time": "17:30"
+        }
+      ]
+    },
+    {
+      "id": 75,
+      "date": "2021-01-04",
+      "movieId": 8,
+      "price": 59000,
+      "cinemaId": 3,
+      "times": [
+        {
+          "start_time": "12:10",
+          "end_time": "14:40"
+        },
+        {
+          "start_time": "15:00",
+          "end_time": "17:30"
+        },
+        {
+          "start_time": "18:00",
+          "end_time": "20:30"
+        },
+        {
+          "start_time": "21:00",
+          "end_time": "23:30"
+        }
+      ]
+    },
+    {
+      "id": 76,
+      "date": "2021-01-04",
+      "movieId": 8,
+      "price": 59000,
+      "cinemaId": 4,
+      "times": [
+        {
+          "start_time": "08:55",
+          "end_time": "11:25"
+        },
+        {
+          "start_time": "12:00",
+          "end_time": "14:30"
+        },
+        {
+          "start_time": "15:00",
+          "end_time": "17:30"
+        }
+      ]
+    },
+    {
+      "id": 77,
+      "date": "2021-01-05",
+      "movieId": 8,
+      "price": 59000,
+      "cinemaId": 1,
+      "times": [
+        {
+          "start_time": "09:00",
+          "end_time": "11:30"
+        },
+        {
+          "start_time": "13:10",
+          "end_time": "14:40"
+        },
+        {
+          "start_time": "15:00",
+          "end_time": "17:30"
+        },
+        {
+          "start_time": "18:00",
+          "end_time": "20:30"
+        }
+      ]
+    },
+    {
+      "id": 78,
+      "date": "2021-01-05",
+      "movieId": 8,
+      "price": 59000,
+      "cinemaId": 2,
+      "times": [
+        {
+          "start_time": "08:00",
+          "end_time": "10:30"
+        },
+        {
+          "start_time": "12:00",
+          "end_time": "14:30"
+        },
+        {
+          "start_time": "15:00",
+          "end_time": "17:30"
+        }
+      ]
+    },
+    {
+      "id": 79,
+      "date": "2021-01-05",
+      "movieId": 8,
+      "price": 59000,
+      "cinemaId": 3,
+      "times": [
+        {
+          "start_time": "12:10",
+          "end_time": "14:40"
+        },
+        {
+          "start_time": "15:00",
+          "end_time": "17:30"
+        },
+        {
+          "start_time": "18:00",
+          "end_time": "20:30"
+        },
+        {
+          "start_time": "21:00",
+          "end_time": "23:30"
+        }
+      ]
+    },
+    {
+      "id": 80,
+      "date": "2021-01-05",
+      "movieId": 8,
+      "price": 59000,
+      "cinemaId": 4,
+      "times": [
+        {
+          "start_time": "08:55",
+          "end_time": "11:25"
+        },
+        {
+          "start_time": "12:00",
+          "end_time": "14:30"
+        },
+        {
+          "start_time": "15:00",
+          "end_time": "17:30"
+        }
+      ]
+    },
+    {
+      "id": 81,
+      "date": "2021-01-01",
+      "movieId": 10,
+      "price": 69000,
+      "cinemaId": 1,
+      "times": [
+        {
+          "start_time": "09:00",
+          "end_time": "11:30"
+        },
+        {
+          "start_time": "13:10",
+          "end_time": "14:40"
+        },
+        {
+          "start_time": "15:00",
+          "end_time": "17:30"
+        },
+        {
+          "start_time": "18:00",
+          "end_time": "20:30"
+        }
+      ]
+    },
+    {
+      "id": 82,
+      "date": "2021-01-01",
+      "movieId": 10,
+      "price": 69000,
+      "cinemaId": 2,
+      "times": [
+        {
+          "start_time": "08:00",
+          "end_time": "10:30"
+        },
+        {
+          "start_time": "12:00",
+          "end_time": "14:30"
+        },
+        {
+          "start_time": "15:00",
+          "end_time": "17:30"
+        }
+      ]
+    },
+    {
+      "id": 83,
+      "date": "2021-01-01",
+      "movieId": 10,
+      "price": 69000,
+      "cinemaId": 3,
+      "times": [
+        {
+          "start_time": "12:10",
+          "end_time": "14:40"
+        },
+        {
+          "start_time": "15:00",
+          "end_time": "17:30"
+        },
+        {
+          "start_time": "18:00",
+          "end_time": "20:30"
+        },
+        {
+          "start_time": "21:00",
+          "end_time": "23:30"
+        }
+      ]
+    },
+    {
+      "id": 84,
+      "date": "2021-01-01",
+      "movieId": 10,
+      "price": 69000,
+      "cinemaId": 4,
+      "times": [
+        {
+          "start_time": "08:55",
+          "end_time": "11:25"
+        },
+        {
+          "start_time": "12:00",
+          "end_time": "14:30"
+        },
+        {
+          "start_time": "15:00",
+          "end_time": "17:30"
+        }
+      ]
+    },
+    {
+      "id": 85,
+      "date": "2021-01-02",
+      "movieId": 10,
+      "price": 69000,
+      "cinemaId": 1,
+      "times": [
+        {
+          "start_time": "13:10",
+          "end_time": "14:40"
+        },
+        {
+          "start_time": "15:00",
+          "end_time": "17:30"
+        },
+        {
+          "start_time": "18:00",
+          "end_time": "20:30"
+        }
+      ]
+    },
+    {
+      "id": 86,
+      "date": "2021-01-02",
+      "movieId": 10,
+      "price": 69000,
+      "cinemaId": 2,
+      "times": [
+        {
+          "start_time": "09:00",
+          "end_time": "11:30"
+        },
+        {
+          "start_time": "12:00",
+          "end_time": "14:30"
+        },
+        {
+          "start_time": "15:00",
+          "end_time": "17:30"
+        }
+      ]
+    },
+    {
+      "id": 87,
+      "date": "2021-01-02",
+      "movieId": 10,
+      "price": 69000,
+      "cinemaId": 3,
+      "times": [
+        {
+          "start_time": "12:10",
+          "end_time": "14:40"
+        },
+        {
+          "start_time": "14:50",
+          "end_time": "17:20"
+        },
+        {
+          "start_time": "17:30",
+          "end_time": "20:00"
+        },
+        {
+          "start_time": "20:10",
+          "end_time": "22:40"
+        }
+      ]
+    },
+    {
+      "id": 88,
+      "date": "2021-01-02",
+      "movieId": 10,
+      "price": 69000,
+      "cinemaId": 4,
+      "times": [
+        {
+          "start_time": "08:55",
+          "end_time": "11:25"
+        },
+        {
+          "start_time": "12:00",
+          "end_time": "14:30"
+        },
+        {
+          "start_time": "15:00",
+          "end_time": "17:30"
+        }
+      ]
+    },
+    {
+      "id": 89,
+      "date": "2021-01-03",
+      "movieId": 10,
+      "price": 69000,
+      "cinemaId": 1,
+      "times": [
+        {
+          "start_time": "09:00",
+          "end_time": "11:30"
+        },
+        {
+          "start_time": "13:10",
+          "end_time": "14:40"
+        },
+        {
+          "start_time": "15:00",
+          "end_time": "17:30"
+        },
+        {
+          "start_time": "18:00",
+          "end_time": "20:30"
+        }
+      ]
+    },
+    {
+      "id": 90,
+      "date": "2021-01-03",
+      "movieId": 10,
+      "price": 69000,
+      "cinemaId": 2,
+      "times": [
+        {
+          "start_time": "12:10",
+          "end_time": "14:40"
+        },
+        {
+          "start_time": "14:50",
+          "end_time": "17:20"
+        },
+        {
+          "start_time": "17:30",
+          "end_time": "20:00"
+        },
+        {
+          "start_time": "20:10",
+          "end_time": "22:40"
+        }
+      ]
+    },
+    {
+      "id": 91,
+      "date": "2021-01-03",
+      "movieId": 10,
+      "price": 69000,
+      "cinemaId": 3,
+      "times": [
+        {
+          "start_time": "13:10",
+          "end_time": "14:40"
+        },
+        {
+          "start_time": "15:00",
+          "end_time": "17:30"
+        },
+        {
+          "start_time": "18:00",
+          "end_time": "20:30"
+        }
+      ]
+    },
+    {
+      "id": 92,
+      "date": "2021-01-03",
+      "movieId": 10,
+      "price": 69000,
+      "cinemaId": 4,
+      "times": [
+        {
+          "start_time": "08:55",
+          "end_time": "11:25"
+        },
+        {
+          "start_time": "12:00",
+          "end_time": "14:30"
+        },
+        {
+          "start_time": "15:00",
+          "end_time": "17:30"
+        }
+      ]
+    },
+    {
+      "id": 93,
+      "date": "2021-01-04",
+      "movieId": 10,
+      "price": 69000,
+      "cinemaId": 1,
+      "times": [
+        {
+          "start_time": "09:00",
+          "end_time": "11:30"
+        },
+        {
+          "start_time": "13:10",
+          "end_time": "14:40"
+        },
+        {
+          "start_time": "15:00",
+          "end_time": "17:30"
+        },
+        {
+          "start_time": "18:00",
+          "end_time": "20:30"
+        }
+      ]
+    },
+    {
+      "id": 94,
+      "date": "2021-01-04",
+      "movieId": 10,
+      "price": 69000,
+      "cinemaId": 2,
+      "times": [
+        {
+          "start_time": "08:55",
+          "end_time": "11:25"
+        },
+        {
+          "start_time": "12:00",
+          "end_time": "14:30"
+        },
+        {
+          "start_time": "15:00",
+          "end_time": "17:30"
+        }
+      ]
+    },
+    {
+      "id": 95,
+      "date": "2021-01-04",
+      "movieId": 10,
+      "price": 69000,
+      "cinemaId": 3,
+      "times": [
+        {
+          "start_time": "12:10",
+          "end_time": "14:40"
+        },
+        {
+          "start_time": "15:00",
+          "end_time": "17:30"
+        },
+        {
+          "start_time": "18:00",
+          "end_time": "20:30"
+        },
+        {
+          "start_time": "21:00",
+          "end_time": "23:30"
+        }
+      ]
+    },
+    {
+      "id": 96,
+      "date": "2021-01-04",
+      "movieId": 10,
+      "price": 69000,
+      "cinemaId": 4,
+      "times": [
+        {
+          "start_time": "08:55",
+          "end_time": "11:25"
+        },
+        {
+          "start_time": "12:00",
+          "end_time": "14:30"
+        },
+        {
+          "start_time": "15:00",
+          "end_time": "17:30"
+        }
+      ]
+    },
+    {
+      "id": 97,
+      "date": "2021-01-05",
+      "movieId": 10,
+      "price": 69000,
+      "cinemaId": 1,
+      "times": [
+        {
+          "start_time": "09:00",
+          "end_time": "11:30"
+        },
+        {
+          "start_time": "13:10",
+          "end_time": "14:40"
+        },
+        {
+          "start_time": "15:00",
+          "end_time": "17:30"
+        },
+        {
+          "start_time": "18:00",
+          "end_time": "20:30"
+        }
+      ]
+    },
+    {
+      "id": 98,
+      "date": "2021-01-05",
+      "movieId": 10,
+      "price": 69000,
+      "cinemaId": 2,
+      "times": [
+        {
+          "start_time": "08:00",
+          "end_time": "10:30"
+        },
+        {
+          "start_time": "12:00",
+          "end_time": "14:30"
+        },
+        {
+          "start_time": "15:00",
+          "end_time": "17:30"
+        }
+      ]
+    },
+    {
+      "id": 99,
+      "date": "2021-01-05",
+      "movieId": 10,
+      "price": 69000,
+      "cinemaId": 3,
+      "times": [
+        {
+          "start_time": "12:10",
+          "end_time": "14:40"
+        },
+        {
+          "start_time": "15:00",
+          "end_time": "17:30"
+        },
+        {
+          "start_time": "18:00",
+          "end_time": "20:30"
+        },
+        {
+          "start_time": "21:00",
+          "end_time": "23:30"
+        }
+      ]
+    },
+    {
+      "id": 100,
+      "date": "2021-01-05",
+      "movieId": 10,
+      "price": 69000,
+      "cinemaId": 4,
+      "times": [
+        {
+          "start_time": "08:55",
+          "end_time": "11:25"
+        },
+        {
+          "start_time": "12:00",
+          "end_time": "14:30"
+        },
+        {
+          "start_time": "15:00",
+          "end_time": "17:30"
+        }
+      ]
+    }
+  ],
+  "cinemas": [
+    {
+      "id": 1,
+      "cinema_name": "Cinema Nguyễn Tất Thành",
+      "address": "193 Nguyễn Tất Thành, Q. Hải Châu, TP. Đà Nẵng",
+      "email": "hoidap.cinemantt@gmail.com",
+      "hotline": "1900 6821",
+      "image_url": "https://www.cgv.vn/media/site/cache/1/980x415/b58515f018eb873dafa430b6f9ae0c1e/c/g/cgv_tra_vinh_v2_170304_11.jpg",
+      "seats": {
+        "A": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12
+        ],
+        "B": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12
+        ],
+        "C": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12
+        ],
+        "D": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12
+        ],
+        "E": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12
+        ],
+        "F": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12
+        ],
+        "G": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12
+        ],
+        "H": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12
+        ]
+      }
+    },
+    {
+      "id": 2,
+      "cinema_name": "Cinema Điện Biên Phủ",
+      "address": "92 Điện Biên Phủ, Q. Thanh Khê, TP. Đà Nẵng",
+      "email": "hoidap.cinemadbp@gmail.com",
+      "hotline": "1900 2545",
+      "image_url": "https://www.cgv.vn/media/site/cache/1/980x415/b58515f018eb873dafa430b6f9ae0c1e/c/g/cgv-cinema-truong-dinh-3.png",
+      "seats": {
+        "A": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12
+        ],
+        "B": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12
+        ],
+        "C": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12
+        ],
+        "D": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12
+        ],
+        "E": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12
+        ],
+        "F": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12
+        ],
+        "G": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12
+        ],
+        "H": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12
+        ]
+      }
+    },
+    {
+      "id": 3,
+      "cinema_name": "Cinema Võ Văn Kiệt",
+      "address": "113 Võ Văn Kiệt, Q. Sơn Trà, TP. Đà Nẵng",
+      "email": "hoidap.cinemavvk@gmail.com",
+      "hotline": "1900 1645",
+      "image_url": "https://www.cgv.vn/media/site/cache/1/980x415/b58515f018eb873dafa430b6f9ae0c1e/c/g/cgv-vincom-bac-tu-liem-3.png",
+      "seats": {
+        "A": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12
+        ],
+        "B": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12
+        ],
+        "C": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12
+        ],
+        "D": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12
+        ],
+        "E": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12
+        ],
+        "F": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12
+        ],
+        "G": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12
+        ],
+        "H": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12
+        ]
+      }
+    },
+    {
+      "id": 4,
+      "cinema_name": "Cinema Trưng Nữ Vương",
+      "address": "235 Trưng Nữ Vương, Q. Hải Châu, TP. Đà Nẵng",
+      "email": "hoidap.cinematnv@gmail.com",
+      "hotline": "1900 1025",
+      "image_url": "https://www.cgv.vn/media/site/cache/1/980x415/b58515f018eb873dafa430b6f9ae0c1e/h/i/hinh_anh_cgv_aeon_hadong3.jpg",
+      "seats": {
+        "A": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12
+        ],
+        "B": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12
+        ],
+        "C": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12
+        ],
+        "D": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12
+        ],
+        "E": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12
+        ],
+        "F": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12
+        ],
+        "G": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12
+        ],
+        "H": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12
+        ]
+      }
+    }
+  ]
+}

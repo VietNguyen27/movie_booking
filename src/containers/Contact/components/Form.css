@@ -1,0 +1,15 @@
+/* Form */
+.form textarea {
+    height: 150px;
+    resize: none;
+}
+
+.form .input-group:last-of-type label {
+    padding: 8px 0;
+}
+
+@media screen and (max-width: 640px) {
+    .form .input-group:last-of-type label {
+        padding: 0;
+    }
+}

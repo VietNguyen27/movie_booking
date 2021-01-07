@@ -1,0 +1,15 @@
+.expired {
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+}
+
+.expired-item:not(:last-of-type) {
+    border-bottom: 1px solid var(--gray-color);
+}
+
+.expired-item p span {
+    padding: 0 6px;
+}
+
+.expired-item p span:first-of-type {
+    padding-left: 0;
+}

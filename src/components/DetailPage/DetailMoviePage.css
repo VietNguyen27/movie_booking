@@ -1,0 +1,112 @@
+.poster {
+    width: 100%;
+    position: relative;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.poster:after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.55);
+}
+
+.poster-icon {
+    position: absolute;
+    z-index: 10;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    font-size: 75px;
+    color: var(--secondary-color);
+    cursor: pointer;
+}
+
+.poster-icon:after {
+    content: '';
+    position: absolute;
+    top: 16%;
+    left: 2%;
+    width: 97%;
+    height: 64%;
+    border-radius: 50%;
+    animation-name: pulseBorder;
+    animation-duration: 1.5s;
+    animation-iteration-count: infinite;
+    transition: ease-out all 1.5s;
+}
+
+.movie-detail {
+    position: relative;
+    z-index: 10;
+    margin-top: -180px;
+    margin-left: 15px;
+}
+
+.showtimes .tab-list {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    text-align: center;
+    gap: 0;
+    box-shadow: 0 0 3px rgba(0, 0, 0, 0.2);
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+.showtimes .tab-list-item {
+    background-color: var(--light-gray-color);
+    padding: 15px 0;
+    text-transform: capitalize;
+    font-weight: 500;
+}
+
+.showtimes .tab-list-item.active {
+    background-color: var(--primary-color);
+}
+
+.showtimes .tab-content .showing {
+    border: 2px solid var(--dark-blue-color);
+    border-radius: 4px;
+    padding: 7px 22px;
+    font-weight: 600;
+    transition: ease-in-out 0.4s;
+}
+
+.showtimes .tab-content .showing:hover {
+    background-color: var(--dark-blue-color);
+    color: var(--white-color);
+}
+
+@keyframes pulseBorder {
+    from {
+        box-shadow: 0 0 0 0 rgba(226, 134, 0, 0.7);
+    }
+    to {
+        box-shadow: 0 0 0 15px rgba(226, 134, 0, 0);
+    }
+}
+
+@media screen and (max-width: 640px) {
+    .poster-icon {
+        font-size: 55px;
+        top: 50%;
+    }
+
+    .movie-detail {
+        margin: 0;
+    }
+
+    .showtimes .tab-list-item {
+        padding: 10px 0;
+    }
+
+    .showtimes .tab-content .showing {
+        padding: 5px 15px;
+    }
+}

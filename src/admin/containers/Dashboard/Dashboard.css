@@ -1,0 +1,8 @@
+.dashboard-link {
+    background-color: rgba(0, 0, 0, 0.3);
+    color: var(--light-gray-color);
+}
+
+.dashboard-link:hover {
+    color: var(--light-gray-color);
+}

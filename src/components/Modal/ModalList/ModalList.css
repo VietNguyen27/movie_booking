@@ -1,0 +1,88 @@
+/* Modal List */
+.modal-list {
+    position: fixed;
+    z-index: 999;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.3);
+}
+
+.modal-list .modal-content {
+    position: fixed;
+    top: 50px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 50%;
+    min-width: 550px;
+    padding: 0 15px;
+}
+
+.modal-list .modal-content .modal-inner {
+    position: relative;
+    padding: 15px 20px;
+    background-color: var(--white-color);
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.4);
+    animation-name: moveDown;
+    animation-duration: 0.3s;
+    transition: ease-in-out all 0.3s;
+}
+
+.modal-list .modal-content .modal-inner .tabs .tab-list {
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+
+.modal-list .modal-content .modal-inner .tabs .tab-content {
+    max-height: 400px;
+    overflow-y: auto;
+}
+
+.modal-list .modal-content .modal-inner .tabs .tab-content .list-item:not(:last-of-type) {
+    border-bottom: 1px solid var(--dark-blue-color);
+}
+
+.modal-list .modal-content .modal-inner .tabs .tab-content .list-item .item-left {
+    width: 250px;
+}
+
+.modal-list .modal-content .modal-inner .tabs .tab-content .list-item .item-right {
+    width: 150px;
+}
+
+.modal-list .modal-content .btn-close {
+    position: absolute;
+    top: 25px;
+    right: 15px;
+    transform: translateY(-50%);
+    font-size: 22px;
+}
+
+@keyframes moveDown {
+    from {transform: translateY(-100%);}
+    to {transform: translateY(0);}
+}
+
+@media screen and (max-width: 600px) {
+    .modal-list .modal-content {
+        width: 90%;
+        min-width: 350px;
+    }
+
+    .modal-list .modal-content .modal-inner .tabs .tab-content .list-item {
+        width: 100%;
+        flex-direction: column;
+    }
+
+    .modal-list .modal-content .modal-inner .tabs .tab-content .list-item .item-left {
+        width: 100%;
+    }
+
+    .modal-list .modal-content .modal-inner .tabs .tab-content .list-item .item-right {
+        width: 100%;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+}

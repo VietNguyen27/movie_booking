@@ -1,0 +1,59 @@
+.cinema .tabs .tab-list-item {
+    text-transform: none;
+    font-size: 18px;
+}
+
+.cinema .tabs .tab-content .theater {
+    position: relative;
+    width: 100%;
+    height: 50px;
+}
+
+.cinema .tabs .tab-content .theater h1 span {
+    position: absolute;
+    z-index: 10;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: var(--primary-color);
+    padding: 0 5px;
+}
+
+.cinema .tabs .tab-content .theater .line-through {
+    position: absolute;
+    z-index: 1;
+    top: 50%;
+    left: 0;
+    right: 0;
+    transform: translateY(-50%);
+    height: 12px;
+    border-top: 3px solid var(--dark-blue-color);
+    border-bottom: 3px solid var(--dark-blue-color);
+}
+
+.cinema .tabs .tab-content .theater-details {
+    position: relative;
+}
+
+.cinema .tabs .tab-content .theater-details .theater-info {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.4);
+    color: var(--white-color);
+}
+
+.cinema .tabs .tab-content .theater-details .theater-info h2 {
+    line-height: 1.6;
+}
+
+@media screen and (max-width: 640px) {
+    .cinema .tab-list {
+        flex-wrap: wrap;
+    }
+
+    .cinema .tab-list-item {
+        font-size: 16px !important;
+    }
+}

@@ -1,0 +1,20 @@
+.user-container {
+    min-height: 45vh;
+}
+
+.user-container .user-left img {
+    width: 150px;
+    height: 150px;
+}
+
+.user-container .user-left .info-label {
+    display: inline-block;
+    min-width: 85px;
+    font-weight: 500;
+}
+
+.user-container .user-left input {
+    border: 1px solid var(--dark-blue-color);
+    border-radius: 4px;
+    padding: 3px 10px;
+}

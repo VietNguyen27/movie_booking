@@ -1,0 +1,38 @@
+/* Modal Add */
+.modal-add .modal-content {
+    position: fixed;
+    top: 10%;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 60%;
+    min-width: 650px;
+    padding: 0 15px;
+}
+
+.modal-add .modal-content .modal-inner {
+    position: relative;
+    padding: 25px;
+    background-color: var(--white-color);
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.4);
+}
+
+.modal-add .modal-content .btn-close {
+    position: absolute;
+    top: 25px;
+    right: 15px;
+    transform: translateY(-50%);
+    font-size: 22px;
+}
+
+.modal-add .modal-content form {
+    max-height: 500px;
+    overflow-y: auto;
+}
+
+.input-group input,
+.input-group select,
+.input-group textarea {
+    border: 1px solid transparent;
+    box-shadow: 0 0 1px var(--dark-blue-color);
+}

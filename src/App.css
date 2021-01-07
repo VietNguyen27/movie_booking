@@ -1,0 +1,193 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap');
+
+/* Global Styles */
+:root {
+    --primary-color: #E9D6A1;
+    --secondary-color: #E78A00;
+    --blue-color: #00AFF5;
+    --dark-blue-color: #183D4D;
+    --light-blue-color: #C8D7ED;
+    --light-gray-color: #F9FBFD;
+    --gray-color: #AAAAAA;
+    --red-color: #DA1800;
+    --green-color: #68B855;
+    --orange-color: #FD9D0A;
+    --white-color: #FFFFFF;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: var(--light-gray-color);
+    color: var(--dark-blue-color);
+    margin: 0;
+}
+
+img {
+    width: 100%;
+    vertical-align: middle;
+    object-fit: cover;
+}
+
+h1,
+h2,
+h3,
+h4 {
+    padding: 0;
+    line-height: 1.4;
+}
+
+a {
+    text-decoration: none;
+    color: var(--dark-blue-color);
+    transition: 0.3s ease-in-out;
+}
+
+a:hover {
+    color: var(--secondary-color);
+}
+
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    line-height: 1.6;
+}
+
+p {
+    margin: 0;
+    line-height: 1.6;
+}
+
+input,
+button,
+textarea,
+select {
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+input:focus,
+button:focus,
+textarea:focus,
+select:focus {
+    outline: none;
+}
+
+::placeholder {
+    color: var(--gray-color);
+}
+
+/* Utility Classes */
+.container {
+    max-width: 1000px !important;
+    margin: auto;
+    padding: 0 15px;
+}
+
+.main .main-content {
+    margin-top: 130px;
+    margin-bottom: 20px;
+}
+
+.active {
+    color: var(--secondary-color) !important;
+}
+
+.logo {
+    width: 80px;
+    height: 80px;
+}
+
+.text-primary {color: var(--primary-color);}
+.text-secondary {color: var(--secondary-color);}
+.text-blue {color: var(--blue-color);}
+.text-dark-blue {color: var(--dark-blue-color);}
+.text-light-blue {color: var(--light-blue-color);}
+.text-light-gray {color: var(--light-gray-color);}
+.text-gray {color: var(--gray-color);}
+.text-red {color: var(--red-color);}
+.text-green {color: var(--green-color);}
+.text-orange {color: var(--orange-color);}
+.text-white {color: var(--white-color);}
+
+.bg-primary {background-color: var(--primary-color);}
+.bg-secondary {background-color: var(--secondary-color);}
+.bg-blue {background-color: var(--blue-color);}
+.bg-dark-blue {background-color: var(--dark-blue-color);}
+.bg-light-blue {background-color: var(--light-blue-color);}
+.bg-light-gray {background-color: var(--light-gray-color);}
+.bg-gray {background-color: var(--gray-color);}
+.bg-red {background-color: var(--red-color);}
+.bg-green {background-color: var(--green-color);}
+.bg-orange {background-color: var(--orange-color);}
+.bg-white {background-color: var(--white-color);}
+
+/* Buttons */
+.btn {
+    font-weight: 700;
+    text-transform: uppercase;
+    border: none;
+    cursor: pointer;
+    transition: 0.3s ease-in-out;
+}
+
+.btn:hover {
+    color: var(--secondary-color);
+}
+
+.btn-trailer, .btn-booking {
+    position: absolute;
+    bottom: 10px;
+    padding: 4px 8px;
+    font-size: 15px;
+    border-radius: 4px;
+}
+
+.btn-trailer {
+    left: 10px;
+}
+
+.btn-booking {
+    right: 10px;
+}
+
+.btn-primary {
+    background-color: var(--secondary-color);
+    color: var(--white-color);
+}
+
+.btn-primary:hover {
+    background-color: var(--light-blue-color);
+    color: var(--secondary-color);
+}
+
+.btn-secondary {
+    background-color: var(--primary-color);
+    color: var(--secondary-color);
+}
+
+.btn-secondary:hover {
+    background-color: var(--dark-blue-color);
+    color: var(--white-color);
+}
+
+.btn-dark {
+    border: 1px solid var(--dark-blue-color);
+    background-color: transparent;
+    color: var(--dark-blue-color);
+    border-radius: 0.25rem;
+    transition: 0.3s ease-in-out;
+}
+
+.btn-dark:hover {
+    border: 1px solid var(--dark-blue-color);
+    background-color: var(--dark-blue-color);
+    color: var(--light-gray-color);
+    border-radius: 0.25rem;
+}

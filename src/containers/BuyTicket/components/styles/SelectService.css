@@ -1,0 +1,71 @@
+.table, .section {
+    width: 100%;
+    border-radius: 10px;
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.2);
+    overflow: hidden;
+}
+
+.table tr th,
+.table tr:not(:last-of-type) td {
+    border-bottom: 1px solid var(--light-blue-color);
+}
+
+.table tr th,
+.table tr td {
+    padding: 12px 17px;
+    background-color: var(--white-color);
+}
+
+.table tr th {
+    text-transform: uppercase;
+    font-weight: 500;
+    letter-spacing: 0.5px;
+}
+
+.table tr td:last-of-type {
+    min-width: 115px;
+}
+
+.table .table-title {
+    background-color: var(--light-blue-color);
+    text-align: left;
+    text-transform: uppercase;
+    font-weight: 500;
+    letter-spacing: 0.5px;
+}
+
+.select-service .table .product-quantity .quantity {
+    display: inline-block;
+    width: 30px;
+    text-align: center;
+}
+
+.select-service .table .product-quantity .btn-quantity {
+    width: 25px;
+    height: 25px;
+    line-height: 25px;
+    font-size: 20px;
+    border: 1px solid var(--light-blue-color);
+    border-radius: 50%;
+}
+
+.select-service .table .product-quantity .btn-quantity:hover {
+    border: 1px solid var(--secondary-color);
+}
+
+@media screen and (max-width: 640px) {
+    .select-service .table .product-quantity .btn-quantity {
+        width: 20px;
+        height: 20px;
+        line-height: 20px;
+        font-size: 16px;
+    }
+
+    .table tr td:last-of-type {
+        min-width: 90px;
+    }
+
+    .table tr td:not(:first-of-type) {
+        padding: 12px 10px 12px 0;
+    }
+}

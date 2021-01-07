@@ -1,0 +1,208 @@
+.book-ticket .screen-container {
+    width: 380px;
+    margin: auto;
+    perspective: 1000px;
+    -moz-perspective: 1000px;
+    -webkit-perspective: 1000px;
+}
+
+.book-ticket .screen {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 200px;
+    background-color: var(--dark-blue-color);
+    transform: rotateX(-45deg);
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
+}
+
+.book-ticket .seat-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.book-ticket .seat-item small {
+    padding: 3px 0;
+    font-weight: 500;
+}
+
+.book-ticket .seat {
+    position: relative;
+    width: 25px;
+    height: 28px;
+    line-height: 28px;
+    text-align: center;
+    margin: 0 4px;
+    background-color: var(--light-blue-color);
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    transition: ease-in-out 0.3s;
+}
+
+.book-ticket .seat:not(.seat-occupied):hover .seat-name {
+    opacity: 1;
+}
+
+.book-ticket .seat .seat-name {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 11px;
+    pointer-events: none;
+    opacity: 0;
+    transition: ease-in-out 0.3s;
+}
+
+.book-ticket .seats {
+    padding: 20px 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.book-ticket .seats .seat:not(.seat-occupied) {
+    cursor: pointer;
+}
+
+.book-ticket .seats .seat:not(.seat-occupied):hover {
+    transform: scale(1.2);
+}
+
+.book-ticket .seats .row {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 6px 0;
+}
+
+.book-ticket .seats .row-name {
+    width: 28px;
+    height: 28px;
+    line-height: 28px;
+    text-align: center;
+    margin-right: 15px;
+    background-color: var(--dark-blue-color);
+    color: var(--white-color);
+}
+
+.book-ticket .seats .row .seat:nth-of-type(2) {
+    margin-right: 20px;
+}
+.book-ticket .seats .row .seat:nth-last-of-type(2) {
+    margin-left: 20px;
+}
+
+.book-ticket .seat.seat-selected {
+    background-color: var(--dark-blue-color);
+}
+
+.book-ticket .seat.seat-selected .seat-name {
+    color: var(--white-color);
+    opacity: 1;
+}
+
+.book-ticket .seat.seat-occupied {
+    background-color: var(--light-blue-color);
+    position: relative;
+    overflow: hidden;
+}
+
+.book-ticket .seat.seat-occupied:after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    width: 150%;
+    height: 10px;
+    background-color: var(--dark-blue-color);
+    transform: rotate(45deg) translate(-15px, 15px);
+}
+
+.book-ticket .seat.seat-occupied:before {
+    content: '';
+    position: absolute;
+    top: 0;
+    width: 150%;
+    height: 10px;
+    background-color: var(--dark-blue-color);
+    transform: rotate(45deg) translate(-5px, 7px);
+}
+
+.checkout .movie-info,
+.checkout .total-container {
+    border-radius: 0.5rem;
+    background-color: var(--white-color);
+    padding: 8px 16px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+    margin-bottom: 20px;
+}
+
+.checkout .btn {
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+    margin-bottom: 20px;
+}
+
+@media screen and (max-width: 640px) {
+    .book-ticket .screen-container {
+        width: 280px;
+    }
+
+    .book-ticket .screen {
+        height: 150px;
+    }
+
+    .book-ticket .seat {
+        width: 19px;
+        height: 22px;
+        line-height: 22px;
+        margin: 0 3px;
+    }
+
+    .book-ticket .seat .seat-name {
+        font-size: 10px;
+    }
+
+    .book-ticket .seats .row {
+        margin: 3px 0;
+    }
+
+    .book-ticket .seats .row-name {
+        width: 22px;
+        height: 22px;
+        line-height: 22px;
+        margin-right: 10px;
+    }
+
+    .book-ticket .seats .row .seat:nth-of-type(2) {
+        margin-right: 10px;
+    }
+    
+    .book-ticket .seats .row .seat:nth-last-of-type(2) {
+        margin-left: 10px;
+    }
+
+    
+    .book-ticket .seat.seat-occupied:after {
+        height: 7px;
+        transform: rotate(45deg) translate(-15px, 11px);
+    }
+
+    .book-ticket .seat.seat-occupied:before {
+        height: 7px;
+    }
+
+    .checkout .movie-info,
+    .checkout .total-container,
+    .checkout .btn {
+        margin-bottom: 15px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .book-ticket .seats .row-name {
+        display: none;
+    }
+}
